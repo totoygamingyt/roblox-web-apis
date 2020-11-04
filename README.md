@@ -184,10 +184,10 @@ Product APIs
       "AssetTypeId": 0,
       "Creator": {
         "Id": 0,
-	"Name": null,
-	"CreatorType": null,
-	"CreatorTargetId": 0
-      },
+        "Name": null,
+        "CreatorType": null,
+        "CreatorTargetId": 0
+       },
       "IconImageAssetId": 0,
       "Created": "2013-10-16T00:37:38.517Z", 
       "Updated":"2013-10-16T00:37:38.517Z",
