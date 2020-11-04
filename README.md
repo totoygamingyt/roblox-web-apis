@@ -57,11 +57,9 @@ Roblox API Sites (forked from [matthewdean/roblox-web-apis](https://github.com/m
 Deprecated APIs
 ===============
 * [Thumbnail APIs](#thumbnail-apis)
-* [Set APIs](#set-apis)
 * [Group APIs](#group-apis)
 * [Friend APIs](#friend-apis)
 * [User APIs](#user-apis)
-* [Asset APIs](#user-apis)
 
 Search APIs
 -----------
