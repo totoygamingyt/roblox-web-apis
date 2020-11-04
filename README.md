@@ -190,10 +190,10 @@ Product APIs
        },
       "IconImageAssetId": 0,
       "Created": "2013-10-16T00:37:38.517Z", 
-      "Updated":"2013-10-16T00:37:38.517Z",
-      "PriceInRobux":50.
+      "Updated": "2013-10-16T00:37:38.517Z",
+      "PriceInRobux": 50,
       "PremiumPriceInRobux": null,
-      "PriceInTickets":null,
+      "PriceInTickets": null,
       "IsNew": false,
       "IsForSale": true,
       "IsPublicDomain": false,
