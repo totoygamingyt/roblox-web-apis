@@ -1,4 +1,5 @@
-Roblox API Sites (forked from [matthewdean/roblox-web-apis](https://github.com/matthewdean/roblox-web-apis))
+forked from [matthewdean/roblox-web-apis](https://github.com/matthewdean/roblox-web-apis)
+Roblox API Sites
 ================
 | Site | Description |
 | -: | :- |
@@ -54,6 +55,9 @@ Roblox API Sites (forked from [matthewdean/roblox-web-apis](https://github.com/m
 | [users.roblox.com](https://users.roblox.com/docs) \[ [v1](https://users.roblox.com/docs#!/v1) \] | For direct Roblox user information. |
 | [voice.roblox.com](https://voice.roblox.com/docs) \[ [v1](https://voice.roblox.com/docs#!/v1) \] | APIs for Voice calls. |
 
+<details>
+ <summary>pre-rewrite</summary>
+ 
 Deprecated APIs
 ===============
 * [Thumbnail APIs](#thumbnail-apis)
@@ -281,3 +285,4 @@ Asset APIs
 #### macOS
 * [Roblox Studio](http://setup.roblox.com/mac/RobloxStudio.dmg)
 * [Roblox](http://setup.roblox.com/mac/Roblox.dmg)
+</details>
