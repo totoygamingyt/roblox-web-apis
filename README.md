@@ -4,6 +4,7 @@ forked from [matthewdean/roblox-web-apis](https://github.com/matthewdean/roblox-
 * [Roblox API Sites](#roblox-api-sites)
 
 ## Roblox API Sites
+*click a link to be directed to the public documentation, for a complete documentation of all APIs in one webpage, visit [here](https://api.roblox.com/docs?useConsolidatedPage=true)*
 | Site | Description |
 | -: | :- |
 | [abtesting.roblox.com](https://abtesting.roblox.com/docs) \[ [v1](https://abtesting.roblox.com/docs#!/v1) \] | Endpoints for the A/B Testing framework |
