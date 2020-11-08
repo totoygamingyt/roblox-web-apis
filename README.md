@@ -81,7 +81,7 @@ forked from [matthewdean/roblox-web-apis](https://github.com/matthewdean/roblox-
    * https://games.roblox.com/v1/games/multiget-place-details?placeIds=1818
 </details>
 
-<details><summary><Get server instances of a place/summary>
+<details><summary>Get server instances of a place</summary>
 
  * www
    * https://www.roblox.com/games/getgameinstancesjson?placeId=1818&startindex=0
