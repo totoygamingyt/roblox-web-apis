@@ -1,9 +1,9 @@
 forked from [matthewdean/roblox-web-apis](https://github.com/matthewdean/roblox-web-apis)<br />
 
 ## Table of Contents
-* [Roblox API Sites](#roblox-api-sites)
+* [Roblox API Subdomains](#roblox-api-subdomains)
 
-## Roblox API Sites
+## Roblox API Subdomains
 *click a link to be directed to the public documentation, for a complete documentation of all APIs in one webpage, visit [here](https://api.roblox.com/docs?useConsolidatedPage=true)*
 | Site | Description |
 | -: | :- |
@@ -59,6 +59,17 @@ forked from [matthewdean/roblox-web-apis](https://github.com/matthewdean/roblox-
 | [twostepverification.roblox.com](https://twostepverification.roblox.com/docs) \[ [v1](https://twostepverification.roblox.com/docs#!/v1) \] | Platform interface for the two step verification system. |
 | [users.roblox.com](https://users.roblox.com/docs) \[ [v1](https://users.roblox.com/docs#!/v1) \] | For direct Roblox user information. |
 | [voice.roblox.com](https://voice.roblox.com/docs) \[ [v1](https://voice.roblox.com/docs#!/v1) \] | APIs for Voice calls. |
+
+## Web APIs
+*Endpoints on the www subdomain are most likely depreacted, and could be removed by Roblox at any time.*
+### Place APIs
+https://www.roblox.com/places/api-get-details?assetId=1818
+  * **Get information about a place**
+
+
+https://api.roblox.com/v1.1/avatar-fetch?placeId=1818&userId=306209
+  * **Get data of a user's avatar in a place**  
+
 
 <details>
  <summary>pre-rewrite</summary>
