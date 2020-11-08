@@ -2,6 +2,9 @@ forked from [matthewdean/roblox-web-apis](https://github.com/matthewdean/roblox-
 
 ## Table of Contents
 * [Roblox API Subdomains](#roblox-api-subdomains)
+* [Roblox Web APIs](#web-apis)
+  * [Universe APIs](#universe-apis)
+  * [Place APIs](#place-apis)
 
 ## Roblox API Subdomains
 *click a link to be directed to the public documentation, for a complete documentation of all APIs in one webpage, visit [here](https://api.roblox.com/docs?useConsolidatedPage=true)*
@@ -62,11 +65,28 @@ forked from [matthewdean/roblox-web-apis](https://github.com/matthewdean/roblox-
 
 ## Web APIs
 *Endpoints on the www subdomain are most likely depreacted, and could be removed by Roblox at any time.*
-### Place APIs
-**Get information about a place**
-* https://www.roblox.com/places/api-get-details?assetId=1818
 
-**Get data about a user's avatar in a place**  
+### Universe APIs
+<details on><summary>**Get start informatioin about a universe**</summary>
+* https://api.roblox.com/v1.1/game-start-info?universeId=1406616510
+</details>
+### Place APIs
+<details on><summary>**Get information about a place**</summary>
+ * www 
+   * https://www.roblox.com/places/api-get-details?assetId=1818
+ * games
+   * https://games.roblox.com/v1/games/multiget-place-details?placeIds=1818
+</details>
+**Get server instances of a place**
+ * www
+   * https://www.roblox.com/games/getgameinstancesjson?placeId=1818&startindex=0
+   * https://www.roblox.com/games/getfriendsgameinstances?placeId=1818&startindex=0
+ * games
+   * https://games.roblox.com/v1/games/1818/servers/Public
+   * https://games.roblox.com/v1/games/1818/servers/Friend
+   * https://games.roblox.com/v1/games/1818/servers/VIP
+
+**Get information about a user's avatar in a place**  
 * https://api.roblox.com/v1.1/avatar-fetch?placeId=1818&userId=306209
 
 
