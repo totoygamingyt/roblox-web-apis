@@ -72,6 +72,11 @@ forked from [matthewdean/roblox-web-apis](https://github.com/matthewdean/roblox-
 * https://api.roblox.com/v1.1/game-start-info?universeId=1406616510
 </details>
 
+<details><summary>Get information about a universe</summary>
+ 
+* https://develop.roblox.com/v1/universes/multiget?ids=13058
+</details>
+
 ### Place APIs
 <details><summary>Get information about a place</summary>
 
