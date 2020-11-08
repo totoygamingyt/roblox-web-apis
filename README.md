@@ -63,12 +63,11 @@ forked from [matthewdean/roblox-web-apis](https://github.com/matthewdean/roblox-
 ## Web APIs
 *Endpoints on the www subdomain are most likely depreacted, and could be removed by Roblox at any time.*
 ### Place APIs
-https://www.roblox.com/places/api-get-details?assetId=1818
-  * **Get information about a place**
+**Get information about a place**
+* https://www.roblox.com/places/api-get-details?assetId=1818
 
-
-https://api.roblox.com/v1.1/avatar-fetch?placeId=1818&userId=306209
-  * **Get data of a user's avatar in a place**  
+**Get data about a user's avatar in a place**  
+* https://api.roblox.com/v1.1/avatar-fetch?placeId=1818&userId=306209
 
 
 <details>
