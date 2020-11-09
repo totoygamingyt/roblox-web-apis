@@ -65,7 +65,7 @@ forked from [matthewdean/roblox-web-apis](https://github.com/matthewdean/roblox-
 
 <!-- TODO:
 Complete (duh..)
-Add proper responses and requests (wish Markdown allowed showing the content of files in the repo)
+Add proper responses and requests (wish GithHub's Markdown allowed showing the content of files in the repo)
 Make this relevant
 -->
 ## Web APIs
