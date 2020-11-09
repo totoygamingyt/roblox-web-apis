@@ -3,8 +3,8 @@ forked from [matthewdean/roblox-web-apis](https://github.com/matthewdean/roblox-
 ## Table of Contents
 * [Roblox API Subdomains](#roblox-api-subdomains)
 * [Roblox Web APIs](#web-apis)
-  * [Universe APIs](#universe-apis)
   * [Place APIs](#place-apis)
+  * [Universe APIs](#universe-apis)
 
 ## Roblox API Subdomains
 *click a link to be directed to the public documentation, for a complete documentation of all APIs in one webpage, visit [here](https://api.roblox.com/docs?useConsolidatedPage=true)*
