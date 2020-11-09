@@ -69,7 +69,7 @@ Add proper responses and requests (wish Markdown allowed showing the content of 
 Make this relevant
 -->
 ## Web APIs
-*Endpoints on the www subdomain are most likely depreacted, and could be removed by Roblox at any time.*
+*Endpoints on the www subdomain are most likely deprecated, and could be removed by Roblox at any time.*
 
 ### Universe APIs
 <details><summary>Get the private server instances of a universe that the authenticated user can access</summary>
@@ -95,33 +95,63 @@ Make this relevant
      
 </details>
 
+<details><summary>Get gamepasses of a universe</summary>
+ 
+* https://games.roblox.com/v1/games/13058/game-passes
+  * [Example request](https://games.roblox.com/docs#!/GamePasses/get_v1_games_universeId_game_passes)
+</details>
+
+<details><summary>Get places of a universe</summary>
+ 
+* api
+  * https://api.roblox.com/universes/get-universe-places?universeId=13058&page=1
+* develop
+  * https://develop.roblox.com/v1/universes/13058/places
+    * [Example request](https://develop.roblox.com/docs#!/Universes/get_v1_universes_universeId_places)
+</details>
+
+<details><summary>Get aliases of a universe</summary>
+ 
+* https://api.roblox.com/universes/get-aliases?universeId=13058&page=1
+</details>
+
+<details></summary>Get symbolic links of a universe</summary>
+
+* https://develop.roblox.com/v1/universes/13058/symbolic-links
+</details>
+
 ### Place APIs
 <details><summary>Get information about a place</summary>
 
- * www 
-   * https://www.roblox.com/places/api-get-details?assetId=1818
- * games
-   * https://games.roblox.com/v1/games/multiget-place-details?placeIds=1818
-     * [Example request](https://games.roblox.com/docs#!/Games/get_v1_games_multiget_place_details)
+* www 
+  * https://www.roblox.com/places/api-get-details?assetId=1818
+* games
+  * https://games.roblox.com/v1/games/multiget-place-details?placeIds=1818
+    * [Example request](https://games.roblox.com/docs#!/Games/get_v1_games_multiget_place_details)
 </details>
 
 <details><summary>Get server instances of a place</summary>
 
- * www
-   * https://www.roblox.com/games/getgameinstancesjson?placeId=1818&startindex=0
-   * https://www.roblox.com/games/getfriendsgameinstances?placeId=1818&startindex=0
- * games
-   * https://games.roblox.com/v1/games/1818/servers/Public
-     * [Example request](https://games.roblox.com/docs#!/Games/get_v1_games_placeId_servers_serverType)
-   * https://games.roblox.com/v1/games/1818/servers/Friend
-     * [Example request](https://games.roblox.com/docs#!/Games/get_v1_games_placeId_servers_serverType)
-   * https://games.roblox.com/v1/games/1818/servers/VIP
-     * [Example request](https://games.roblox.com/docs#!/Games/get_v1_games_placeId_servers_serverType)
+* www
+  * https://www.roblox.com/games/getgameinstancesjson?placeId=1818&startindex=0
+  * https://www.roblox.com/games/getfriendsgameinstances?placeId=1818&startindex=0
+* games
+  * https://games.roblox.com/v1/games/1818/servers/Public
+    * [Example request](https://games.roblox.com/docs#!/Games/get_v1_games_placeId_servers_serverType)
+  * https://games.roblox.com/v1/games/1818/servers/Friend
+    * [Example request](https://games.roblox.com/docs#!/Games/get_v1_games_placeId_servers_serverType)
+  * https://games.roblox.com/v1/games/1818/servers/VIP
+    * [Example request](https://games.roblox.com/docs#!/Games/get_v1_games_placeId_servers_serverType)
 </details>
 
 <details><summary>Get information about a user's avatar in a place</summary>
 
 * https://api.roblox.com/v1.1/avatar-fetch?placeId=1818&userId=306209
+</details>
+
+<details><summary>Get the universe that a place is assigned to</summary>
+
+* https://api.roblox.com/universes/get-universe-containing-place?placeId=13058
 </details>
 
 ### User APIs
