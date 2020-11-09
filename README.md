@@ -69,7 +69,7 @@ forked from [matthewdean/roblox-web-apis](https://github.com/matthewdean/roblox-
 ### Universe APIs
 <details><summary>Get start informatioin about a universe</summary>
  
-* https://api.roblox.com/v1.1/game-start-info?universeId=1406616510
+* https://api.roblox.com/v1.1/game-start-info?universeId=13058
 </details>
 
 <details><summary>Get information about a universe</summary>
