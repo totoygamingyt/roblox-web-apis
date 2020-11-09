@@ -63,6 +63,11 @@ forked from [matthewdean/roblox-web-apis](https://github.com/matthewdean/roblox-
 | [users.roblox.com](https://users.roblox.com/docs) \[ [v1](https://users.roblox.com/docs#!/v1) \] | For direct Roblox user information. |
 | [voice.roblox.com](https://voice.roblox.com/docs) \[ [v1](https://voice.roblox.com/docs#!/v1) \] | APIs for Voice calls. |
 
+<!-- TODO:
+Complete (duh..)
+Add proper responses and requests (wish Markdown allowed showing the content of files in the repo)
+Make this relevant
+-->
 ## Web APIs
 *Endpoints on the www subdomain are most likely depreacted, and could be removed by Roblox at any time.*
 
@@ -81,12 +86,12 @@ forked from [matthewdean/roblox-web-apis](https://github.com/matthewdean/roblox-
  
  * develop
    * https://develop.roblox.com/v1/universes/multiget?ids=13058
-     * [Example response](https://develop.roblox.com/docs#!/Universes/get_v1_universes_multiget)
+     * [Example request](https://develop.roblox.com/docs#!/Universes/get_v1_universes_multiget)
    * https://develop.roblox.com/v1/universes/13058
-     * [Example response](https://develop.roblox.com/docs#!/Universes/get_v1_universes_universeId)
+     * [Example request](https://develop.roblox.com/docs#!/Universes/get_v1_universes_universeId)
  * games
    * https://games.roblox.com/v1/games?universeIds=13058
-     * [Example response](https://games.roblox.com/docs#!/Games/get_v1_games)
+     * [Example request](https://games.roblox.com/docs#!/Games/get_v1_games)
      
 </details>
 
@@ -97,8 +102,7 @@ forked from [matthewdean/roblox-web-apis](https://github.com/matthewdean/roblox-
    * https://www.roblox.com/places/api-get-details?assetId=1818
  * games
    * https://games.roblox.com/v1/games/multiget-place-details?placeIds=1818
-     * <a href="https://games.roblox.com/docs#!/Games/get_v1_games_multiget_place_details" target="_blank">Example response</a>
-     * [Example response](https://games.roblox.com/docs#!/Games/get_v1_games_multiget_place_details)
+     * [Example request](https://games.roblox.com/docs#!/Games/get_v1_games_multiget_place_details)
 </details>
 
 <details><summary>Get server instances of a place</summary>
@@ -108,8 +112,11 @@ forked from [matthewdean/roblox-web-apis](https://github.com/matthewdean/roblox-
    * https://www.roblox.com/games/getfriendsgameinstances?placeId=1818&startindex=0
  * games
    * https://games.roblox.com/v1/games/1818/servers/Public
+     * [Example request](https://games.roblox.com/docs#!/Games/get_v1_games_placeId_servers_serverType)
    * https://games.roblox.com/v1/games/1818/servers/Friend
+     * [Example request](https://games.roblox.com/docs#!/Games/get_v1_games_placeId_servers_serverType)
    * https://games.roblox.com/v1/games/1818/servers/VIP
+     * [Example request](https://games.roblox.com/docs#!/Games/get_v1_games_placeId_servers_serverType)
 </details>
 
 <details><summary>Get information about a user's avatar in a place</summary>
