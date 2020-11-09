@@ -81,8 +81,13 @@ forked from [matthewdean/roblox-web-apis](https://github.com/matthewdean/roblox-
  
  * develop
    * https://develop.roblox.com/v1/universes/multiget?ids=13058
+     * [Example response](https://develop.roblox.com/docs#!/Universes/get_v1_universes_multiget)
+   * https://develop.roblox.com/v1/universes/13058
+     * [Example response](https://develop.roblox.com/docs#!/Universes/get_v1_universes_universeId)
  * games
    * https://games.roblox.com/v1/games?universeIds=13058
+     * [Example response](https://games.roblox.com/docs#!/Games/get_v1_games)
+     
 </details>
 
 ### Place APIs
@@ -92,6 +97,8 @@ forked from [matthewdean/roblox-web-apis](https://github.com/matthewdean/roblox-
    * https://www.roblox.com/places/api-get-details?assetId=1818
  * games
    * https://games.roblox.com/v1/games/multiget-place-details?placeIds=1818
+     * <a href="https://games.roblox.com/docs#!/Games/get_v1_games_multiget_place_details" target="_blank">Example response</a>
+     * [Example response](https://games.roblox.com/docs#!/Games/get_v1_games_multiget_place_details)
 </details>
 
 <details><summary>Get server instances of a place</summary>
