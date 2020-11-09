@@ -120,6 +120,11 @@ Make this relevant
 * https://develop.roblox.com/v1/universes/13058/symbolic-links
 </details>
 
+<details><summary>Get badges of a universe</summary>
+ 
+* https://badges.roblox.com/v1/universes/13058/badges
+</details>
+
 ### Place APIs
 <details><summary>Get information about a place</summary>
 
