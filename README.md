@@ -67,6 +67,11 @@ forked from [matthewdean/roblox-web-apis](https://github.com/matthewdean/roblox-
 *Endpoints on the www subdomain are most likely depreacted, and could be removed by Roblox at any time.*
 
 ### Universe APIs
+<details><summary>Get the private server instances of a universe that the authenticated user can access</summary>
+ 
+* https://www.roblox.com/private-server/instance-list-json?universeId=130580&page=1
+</details>
+
 <details><summary>Get start informatioin about a universe</summary>
  
 * https://api.roblox.com/v1.1/game-start-info?universeId=13058
@@ -74,7 +79,10 @@ forked from [matthewdean/roblox-web-apis](https://github.com/matthewdean/roblox-
 
 <details><summary>Get information about a universe</summary>
  
-* https://develop.roblox.com/v1/universes/multiget?ids=13058
+ * develop
+   * https://develop.roblox.com/v1/universes/multiget?ids=13058
+ * games
+   * https://games.roblox.com/v1/games?universeIds=13058
 </details>
 
 ### Place APIs
