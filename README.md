@@ -135,6 +135,15 @@ Make this relevant
     * [Example request](https://games.roblox.com/docs#!/Games/get_v1_games_multiget_place_details)
 </details>
 
+<details></summary>Get configuration of a place</summary>
+
+* www
+  * https://www.roblox.com/places/1818/settings
+* develop
+  * https://develop.roblox.com/v2/places/1818
+    * [Example request](https://develop.roblox.com/docs#!/Places/get_v2_places_placeId)
+</details>
+
 <details><summary>Get server instances of a place</summary>
 
 * www
