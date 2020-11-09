@@ -83,6 +83,7 @@ Make this relevant
 </details>
 
 <details><summary>Get information about a universe</summary>
+
 * api
   * https://api.roblox.com/universes/get-info?universeId=13058
 * develop
