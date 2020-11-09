@@ -83,15 +83,16 @@ Make this relevant
 </details>
 
 <details><summary>Get information about a universe</summary>
- 
- * develop
-   * https://develop.roblox.com/v1/universes/multiget?ids=13058
-     * [Example request](https://develop.roblox.com/docs#!/Universes/get_v1_universes_multiget)
-   * https://develop.roblox.com/v1/universes/13058
-     * [Example request](https://develop.roblox.com/docs#!/Universes/get_v1_universes_universeId)
- * games
-   * https://games.roblox.com/v1/games?universeIds=13058
-     * [Example request](https://games.roblox.com/docs#!/Games/get_v1_games)
+* api
+  * https://api.roblox.com/universes/get-info?universeId=13058
+* develop
+  * https://develop.roblox.com/v1/universes/multiget?ids=13058
+    * [Example request](https://develop.roblox.com/docs#!/Universes/get_v1_universes_multiget)
+  * https://develop.roblox.com/v1/universes/13058
+    * [Example request](https://develop.roblox.com/docs#!/Universes/get_v1_universes_universeId)
+* games
+  * https://games.roblox.com/v1/games?universeIds=13058
+    * [Example request](https://games.roblox.com/docs#!/Games/get_v1_games)
      
 </details>
 
