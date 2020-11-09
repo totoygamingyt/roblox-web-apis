@@ -115,7 +115,7 @@ Make this relevant
 * https://api.roblox.com/universes/get-aliases?universeId=13058&page=1
 </details>
 
-<details></summary>Get symbolic links of a universe</summary>
+<details><summary>Get symbolic links of a universe</summary>
 
 * https://develop.roblox.com/v1/universes/13058/symbolic-links
 </details>
