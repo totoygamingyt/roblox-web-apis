@@ -172,6 +172,16 @@ Make this relevant
 </details>
 
 ### User APIs
+<details><summary>Get information and settings about the authenticated user</summary>
+ 
+* www
+  * https://www.roblox.com/my/account/json
+  * https://www.roblox.com/my/settings/json
+  * https://www.roblox.com/mobileapi/userinfo
+* api
+  * https://api.roblox.com/users/account-info
+</details>
+
 
 # before
 <details>
