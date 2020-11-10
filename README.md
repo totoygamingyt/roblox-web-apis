@@ -185,12 +185,13 @@ Make this relevant
 <details><summary>Get the balance of the authenticated user</summary>
  
 * api
-  * http://api.roblox.com/my/balance
+  * https://api.roblox.com/my/balance
   * https://api.roblox.com/my/platform-currency-budget
     * last used on the Xbox platform
   * http://api.roblox.com/currency/balance
 * economy
   * https://economy.roblox.com/v1/users/306209/currency
+    * [Example request](https://economy.roblox.com/docs#!/Currency/get_v1_users_userId_currency)
 </details>
 
 <details><summary>Get restrictions and other settings of the authenticated user</summary>
@@ -202,12 +203,36 @@ Make this relevant
   * https://www.roblox.com/account/settings/follow-me-privacy
   * https://www.roblox.com/account/settings/private-server-invite-privacy
   * https://www.roblox.com/account/settings/account-restrictions
+  * https://www.roblox.com/account/settings/account-country
 * accountsettings
   * https://accountsettings.roblox.com/v1/content-restriction
+    * [Example request](https://accountsettings.roblox.com/docs#!/ContentRestriction/get_v1_content_restriction)
   * https://accountsettings.roblox.com/v1/privacy
+    * [Example request](https://accountsettings.roblox.com/docs#!/PrivacySettings/get_v1_privacy)
   * https://accountsettings.roblox.com/v1/privacy/info
+    * [Example request](https://accountsettings.roblox.com/docs#!/PrivacySettings/get_v1_privacy_info)
   * https://accountsettings.roblox.com/v1/inventory-privacy
+    * [Example request](https://accountsettings.roblox.com/docs#!/PrivacySettings/get_v1_inventory_privacy)
   * https://accountsettings.roblox.com/v1/trade-privacy
+    * [Example request](https://accountsettings.roblox.com/docs#!/TradeSettings/get_v1_trade_privacy)
+  * https://accountsettings.roblox.com/v1/trade-value
+    * [Example request](https://accountsettings.roblox.com/docs#!/TradeSettings/get_v1_trade_value)
+  * https://accountsettings.roblox.com/v1/themes/user
+    * [Example request](https://accountsettings.roblox.com/docs#!/ThemeConfiguration/get_v1_themes_consumerType_consumerId)
+* accountinformation
+  * https://accountinformation.roblox.com/v1/gender
+    * [Example request](https://accountinformation.roblox.com/docs#!/AccountInformation/get_v1_gender)
+  * https://accountinformation.roblox.com/v1/phone
+    * [Example request](https://accountinformation.roblox.com/docs#!/PhoneInformation/get_v1_phone)
+  * https://accountinformation.roblox.com/v1/promotion-channels
+    * [Example request](https://accountinformation.roblox.com/docs#!/PromotionChannel/get_v1_promotion_channels)
+  * https://accountinformation.roblox.com/v1/birthdate
+    * [Example request](https://accountinformation.roblox.com/docs#!/AccountInformation/get_v1_birthdate)
+  * https://accountinformation.roblox.com/v1/description
+    * [Example request](https://accountinformation.roblox.com/docs#!/AccountInformation/get_v1_description)
+* notifications
+  * http://notifications.roblox.com/v2/notifications/get-settings
+    * [Example request](http://notifications.roblox.com/docs#!/Notifications/get_v2_notifications_get_settings)
 </details>
 
 # before
