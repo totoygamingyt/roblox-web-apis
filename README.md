@@ -193,6 +193,23 @@ Make this relevant
   * https://economy.roblox.com/v1/users/306209/currency
 </details>
 
+<details><summary>Get restrictions and privacy of the authenticated user</summary>
+
+* www
+  * https://www.roblox.com/account/settings/private-message-privacy
+  * https://www.roblox.com/account/settings/game-chat-privacy
+  * https://www.roblox.com/account/settings/app-chat-privacy
+  * https://www.roblox.com/account/settings/follow-me-privacy
+  * https://www.roblox.com/account/settings/private-server-invite-privacy
+  * https://www.roblox.com/account/settings/account-restrictions
+* accountsettings
+  * https://accountsettings.roblox.com/v1/content-restriction
+  * https://accountsettings.roblox.com/v1/privacy
+  * https://accountsettings.roblox.com/v1/privacy/info
+  * https://accountsettings.roblox.com/v1/inventory-privacy
+  * https://accountsettings.roblox.com/v1/trade-privacy
+</details>
+
 # before
 <details>
  <summary>pre-rewrite</summary>
