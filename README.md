@@ -180,6 +180,7 @@ Make this relevant
   * https://www.roblox.com/mobileapi/userinfo
 * api
   * https://api.roblox.com/users/account-info
+  * https://api.roblox.com/reference/deviceinfo
 </details>
 
 <details><summary>Get the balance of the authenticated user</summary>
