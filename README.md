@@ -204,6 +204,7 @@ Make this relevant
   * https://www.roblox.com/account/settings/private-server-invite-privacy
   * https://www.roblox.com/account/settings/account-restrictions
   * https://www.roblox.com/account/settings/account-country
+  * https://www.roblox.com/account/settings/settings-groups
 * accountsettings
   * https://accountsettings.roblox.com/v1/content-restriction
     * [Example request](https://accountsettings.roblox.com/docs#!/ContentRestriction/get_v1_content_restriction)
