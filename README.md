@@ -193,6 +193,8 @@ Make this relevant
 * economy
   * https://economy.roblox.com/v1/users/306209/currency
     * [Example request](https://economy.roblox.com/docs#!/Currency/get_v1_users_userId_currency)
+* billing
+  * https://billing.roblox.com/v1/credit
 </details>
 
 <details><summary>Get restrictions and other settings of the authenticated user</summary>
