@@ -182,6 +182,16 @@ Make this relevant
   * https://api.roblox.com/users/account-info
 </details>
 
+<details><summary>Get the balance of the authenticated user</summary>
+ 
+* api
+  * http://api.roblox.com/my/balance
+  * https://api.roblox.com/my/platform-currency-budget
+    * last used on the Xbox platform
+  * http://api.roblox.com/currency/balance
+* economy
+  * https://economy.roblox.com/v1/users/306209/currency
+</details>
 
 # before
 <details>
