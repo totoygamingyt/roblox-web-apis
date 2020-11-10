@@ -193,7 +193,7 @@ Make this relevant
   * https://economy.roblox.com/v1/users/306209/currency
 </details>
 
-<details><summary>Get restrictions and privacy of the authenticated user</summary>
+<details><summary>Get restrictions and other settings of the authenticated user</summary>
 
 * www
   * https://www.roblox.com/account/settings/private-message-privacy
