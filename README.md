@@ -128,6 +128,10 @@ Make this relevant
 * https://badges.roblox.com/v1/universes/13058/badges
 </details>
 
+<details><summary>Get developer products of a universe</summary>
+ 
+* https://api.roblox.com/developerproducts/list?universeId=13058&page=1
+</details>
 ### Place APIs
 <details><summary>Get information about a place</summary>
 
@@ -169,6 +173,11 @@ Make this relevant
 <details><summary>Get the universe that a place is assigned to</summary>
 
 * https://api.roblox.com/universes/get-universe-containing-place?placeId=13058
+</details>
+
+<details><summary>Get developer products of a place</summary>
+ 
+* https://api.roblox.com/developerproducts/list?placeId=1818&page=1
 </details>
 
 ### User APIs
