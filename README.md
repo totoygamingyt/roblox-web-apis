@@ -249,6 +249,22 @@ Make this relevant
     * [Example request](http://notifications.roblox.com/docs#!/Notifications/get_v2_notifications_get_settings)
 </details>
 
+<details><summary>Get information about a user's page</summary>
+
+* https://www.roblox.com/users/profile/profileheader-json?userId=306209
+</details>
+
+<details><summary>Get information about a user</summary>
+ 
+* https://users.roblox.com/v1/users/306209
+  * [Example request](https://users.roblox.com/docs#!/Users/get_v1_users_userId)
+</details>
+
+<details><summary>Get a user's presence</summary>
+
+* http://api.roblox.com/users/306209/onlinestatus
+</details>
+
 # before
 <details>
  <summary>pre-rewrite</summary>
