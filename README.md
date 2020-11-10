@@ -265,6 +265,43 @@ Make this relevant
 * http://api.roblox.com/users/306209/onlinestatus
 </details>
 
+<details><summary>Get game badges that a user has obtained</summary>
+ 
+* www
+  * https://www.roblox.com/users/profile/playerassets-json?assetTypeId=21&userId=306209
+* badges
+  * https://badges.roblox.com/v1/users/306209/badges
+    * [Example request](https://badges.roblox.com/docs#!/Badges/get_v1_users_userId_badges)
+  * https://badges.roblox.com/v1/users/306209/badges
+    * [Example request](https://badges.roblox.com/docs#!/BadgeAwards/get_v1_users_userId_badges_awarded_dates)
+</details>
+
+<details><summary>Get when a user obtained a game badger</summary>
+
+* https://badges.roblox.com/v1/users/306209/badges/awarded-dates?badgeIds=31717745
+  * [Example request](https://badges.roblox.com/docs#!/BadgeAwards/get_v1_users_userId_badges_awarded_dates)
+</details>
+
+<details><summary>Get roblox badges that a user has obtained</summary>
+ 
+* https://accountinformation.roblox.com/v1/users/306209/roblox-badges
+  * [Example request](https://accountinformation.roblox.com/docs#!/RobloxBadges/get_v1_users_userId_roblox_badges)
+</details>
+
+<details><summary>Get the collections of a user</summary>
+
+* https://www.roblox.com/users/profile/robloxcollections-json?userId=306209
+</details>
+
+<details><summary>Get the inventory of a user</summary>
+
+* www
+  * https://www.roblox.com/users/inventory/list-json?assetTypeId=8&userId=306209
+* inventory
+  * https://inventory.roblox.com/v2/users/306209/inventory?assetTypes=8
+    * [Example request](https://inventory.roblox.com/docs#!/Inventory/get_v2_users_userId_inventory)
+</details>
+
 # before
 <details>
  <summary>pre-rewrite</summary>
