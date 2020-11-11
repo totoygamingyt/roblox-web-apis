@@ -245,6 +245,8 @@ Make this relevant
 * api
   * https://api.roblox.com/users/account-info
   * https://api.roblox.com/reference/deviceinfo
+  * https://api.roblox.com/xboxlive/get-roblox-userInfo
+    * last used on the Xbox platform
 </details>
 
 <details><summary>Get the balance of the authenticated user</summary>
