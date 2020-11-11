@@ -395,7 +395,7 @@ Make this relevant
 
 <details><summary>Get a user's groups</summary>
 
-* https://api.roblox.com/users/1/groups
+* https://api.roblox.com/users/306209/groups
 </details>
 
 ## Clients
