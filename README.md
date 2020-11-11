@@ -309,7 +309,7 @@ Make this relevant
 <details><summary>Get all assets of an asset type that a user has favorited</summary>
 * https://www.roblox.com/user/favorites/places
 * https://www.roblox.com/users/favorites/list-json?assetTypeId=9&userId=306209
-</detials>
+</details>
 
 <details><summary>Get when a user obtained a game badger</summary>
 
@@ -328,7 +328,7 @@ Make this relevant
 * https://www.roblox.com/users/profile/robloxcollections-json?userId=306209
 </details>
 
-<details><summary>Get the inventory of a user</summary>
+<details><summary>Get the inventory of an asset type of a user</summary>
 
 * www
   * https://www.roblox.com/users/inventory/list-json?assetTypeId=8&userId=306209
