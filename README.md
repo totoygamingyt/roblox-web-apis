@@ -98,7 +98,7 @@ Make this relevant
   
 
 ## Web APIs
-*Endpoints on the www subdomain are most likely deprecated, and could be removed by Roblox at any time.*
+*Endpoints on the www, assetgame, and api subdomains are most likely deprecated, and could be removed by Roblox at any time.*
 
 ### Universe APIs
 <details><summary>Get the private server instances of a universe that the authenticated user can access</summary>
