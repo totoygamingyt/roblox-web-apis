@@ -78,14 +78,18 @@ Make this relevant
   * https://apis.roblox.com/application-authorization/v1/authorize?client_id=CLIENT_ID&scope=SCOPE&response_type=RESPONSE_TYPE&redirect_uri=URI
 * Visual Authorization
   * https://www.roblox.com/permission-request?client_id=CLIENT_ID&scope=SCOPE&response_type=RESPONSE_TYPE&redirect_uri=URI
+* Client Information
+  * https://apis.roblox.com/application-authorization/v1/clients/CLIENT_ID
 * Known Client IDs
   * **e3a58e71-5993-4070-a0e1-9c757f6b8748** Creator Dashboard
   * **b03b1542-931c-4f68-a5c3-3311eeba9ac2** BevyLabs
 * Examples
-  * [Visual (Creator Dashboard)](https://www.roblox.com/permission-request?client_id=e3a58e71-5993-4070-a0e1-9c757f6b8748&scope=openId%20profile&response_type=code&redirect_uri=https://create.roblox.com/home)
-  * [Visual (BevyLabs)](https://www.roblox.com/permission-request?client_id=b03b1542-931c-4f68-a5c3-3311eeba9ac2&scope=openId%20profile&response_type=code&redirect_uri=https://events.rbx.com/accounts/oidc/callback/)
-  * [Direct (Creator Dashboard)](https://apis.roblox.com/application-authorization/v1/authorize?client_id=e3a58e71-5993-4070-a0e1-9c757f6b8748&scope=openId%20profile&response_type=code&redirect_uri=https://create.roblox.com/home)
-  * [Direct (BevyLabs)](https://apis.roblox.com/application-authorization/v1/authorize?client_id=b03b1542-931c-4f68-a5c3-3311eeba9ac2&scope=openId%20profile&response_type=code&redirect_uri=https://events.rbx.com/accounts/oidc/callback/)
+  * [Visual Auth (Creator Dashboard)](https://www.roblox.com/permission-request?client_id=e3a58e71-5993-4070-a0e1-9c757f6b8748&scope=openId%20profile&response_type=code&redirect_uri=https://create.roblox.com/home)
+  * [Visual Auth (BevyLabs)](https://www.roblox.com/permission-request?client_id=b03b1542-931c-4f68-a5c3-3311eeba9ac2&scope=openId%20profile&response_type=code&redirect_uri=https://events.rbx.com/accounts/oidc/callback/)
+  * [Direct Auth (Creator Dashboard)](https://apis.roblox.com/application-authorization/v1/authorize?client_id=e3a58e71-5993-4070-a0e1-9c757f6b8748&scope=openId%20profile&response_type=code&redirect_uri=https://create.roblox.com/home)
+  * [Direct Auth (BevyLabs)](https://apis.roblox.com/application-authorization/v1/authorize?client_id=b03b1542-931c-4f68-a5c3-3311eeba9ac2&scope=openId%20profile&response_type=code&redirect_uri=https://events.rbx.com/accounts/oidc/callback/)
+  * [Client Info (Creator Dashboard)](https://apis.roblox.com/application-authorization/v1/clients/e3a58e71-5993-4070-a0e1-9c757f6b8748)
+  * [Client Info (BevyLabs)](https://apis.roblox.com/application-authorization/v1/clients/b03b1542-931c-4f68-a5c3-3311eeba9ac2)
 * Other Information
   * Roblox's oAuth2 codes are around 1604 characters long
   
