@@ -391,6 +391,16 @@ Make this relevant
     * [Example request](https://friends.roblox.com/docs#!/Friends/get_v1_users_userId_friends)
 </details>
 
+<details><summary>Get the number of friends a user has</summary>
+ 
+* api
+  * https://api.roblox.com/user/get-friendship-count?userId=306209
+* friends
+  * https://friends.roblox.com/v1/my/friends/count
+    * [Example request](https://friends.roblox.com/docs#!/Friends/get_v1_my_friends_count)
+  * https://friends.roblox.com/v1/users/306209/friends/count
+    * [Example request](https://friends.roblox.com/docs#!/Friends/get_v1_users_userId_friends_count)
+
 <details><summary>Get a user's following</summary>
 
 * https://friends.roblox.com/v1/users/306209/followings
@@ -412,6 +422,17 @@ Make this relevant
 
 * https://games.roblox.com/v2/users/306209/games
   * [Example request](https://games.roblox.com/docs#!/Games/get_v2_users_userId_games)
+</details>
+
+<details><summary>Get a user's ouutfits</summary>
+
+* https://avatar.roblox.com/v1/users/306209/outfits
+  * [Example request](https://avatar.roblox.com/docs#!/Avatar/get_v1_users_userId_outfits)
+</details>
+
+<details><summary>Get the authenticated user's equipped emotes</summary>
+ 
+* https://avatar.roblox.com/v1/emotes
 </details>
 
 ## Clients
