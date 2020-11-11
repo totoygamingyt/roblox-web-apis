@@ -207,6 +207,27 @@ Make this relevant
 </details>
 
 ### User APIs
+<details><summary>Get the authenticated user</summary>
+
+* users
+  * https://users.roblox.com/v1/users/authenticated
+    * [Example request](https://users.roblox.com/docs#!/Users/get_v1_users_authenticated)
+* assetgame
+  * https://assetgame.roblox.com/Game/GetCurrentUser.ashx
+</details>
+
+<details><summary>Get information about a user</summary>
+
+* api
+  * https://api.roblox.com/users/get-by-username?username=vCaffy
+    * [Example request](https://api.roblox.com/docs)
+  * https://api.roblox.com/users/306209
+    * [Example request](https://api.roblox.com/docs)
+* users
+  * https://users.roblox.com/v1/users/306209
+    * [Example request](https://users.roblox.com/docs#!/Users/get_v1_users_userId)
+</details>
+
 <details><summary>Get information and settings about the authenticated user</summary>
  
 * www
@@ -279,12 +300,6 @@ Make this relevant
 * https://www.roblox.com/users/profile/profileheader-json?userId=306209
 </details>
 
-<details><summary>Get user profile information</summary>
- 
-* https://users.roblox.com/v1/users/306209
-  * [Example request](https://users.roblox.com/docs#!/Users/get_v1_users_userId)
-</details>
-
 <details><summary>Get gaemes from a user's profile</summary>
  
 * https://www.roblox.com/users/profile/playergames-json?userId=306209
@@ -336,6 +351,44 @@ Make this relevant
   * https://inventory.roblox.com/v2/users/306209/inventory?assetTypes=8
     * [Example request](https://inventory.roblox.com/docs#!/Inventory/get_v2_users_userId_inventory)
 </details>
+
+<details><summary>Get the premium subscription of a user</summary>
+ 
+ * https://premiumfeatures.roblox.com/v1/users/306209/subscriptions
+</details>
+
+<details><summary>Get the authenticated user's friend requests</summary>
+ 
+* https://friends.roblox.com/v1/my/friends/requests
+  * [Example request](https://friends.roblox.com/docs#!/Friends/get_v1_my_friends_requests)
+</details>
+
+<details><summary>Get a user's friends</summary>
+
+* api
+  * https://api.roblox.com/users/306209/friends
+    * [Example request](https://api.roblox.com/docs)
+* friends
+  * https://friends.roblox.com/v1/users/306209/friends
+    * [Example request](https://friends.roblox.com/docs#!/Friends/get_v1_users_userId_friends)
+</details>
+
+<details><summary>Get a user's following</summary>
+
+* https://friends.roblox.com/v1/users/306209/followings
+  * [Example request](https://friends.roblox.com/docs#!/Friends/get_v1_users_targetUserId_followings)
+</details>
+
+<details><summary>Get a user's followers</summary>
+
+* https://friends.roblox.com/v1/users/306209/followers
+  * [Example request](https://friends.roblox.com/docs#!/Friends/get_v1_users_targetUserId_followers)
+</details>
+
+<details>summary>Get a user's groups</summary>
+
+* https://api.roblox.com/users/1/groups
+</summary>
 
 # before
 <details>
@@ -512,7 +565,8 @@ User APIs
           "TotalBought": 0,
           "UniverseID": 51584661,
           "HasErrorOcurred": false,
-          "Favorites": 335,
+          "
+          ": 335,
           "Description": null,
           "GameDetailReferralUrl": "https://www.roblox.com/games/refer?PlaceId=119445489&Position=1&PageType=Profile",
           "Thumbnail": { 
