@@ -7,6 +7,9 @@ forked from [matthewdean/roblox-web-apis](https://github.com/matthewdean/roblox-
   * [Universe APIs](#universe-apis)
   * [Place APIs](#place-apis)
   * [User APIs](#user-apis)
+* [Clients](#clients)
+  * [Windows](#windows)
+  * [macOS](#macos)
 
 ## Roblox API Subdomains
 *click a link to be directed to the public documentation, for a complete documentation of all APIs in one webpage, visit [here](https://api.roblox.com/docs?useConsolidatedPage=true)*
@@ -390,12 +393,8 @@ Make this relevant
 * https://api.roblox.com/users/1/groups
 </details>
 
-# before
-<details>
- <summary>pre-rewrite</summary>
-
-### Roblox Clients
-#### Windows
+## Clients
+### Windows
 * [Roblox Studio](http://setup.roblox.com/RobloxStudioLauncherBeta.exe)
   * [Roblox Studio - qq](https://setup.rbxcdn.qq.com/RobloxStudioLauncherBetaCJV.exe)
   * [Roblox Studio - sitetest1](http://setup.sitetest1.robloxlabs.com/RobloxStudioLauncherBeta.exe)
@@ -409,7 +408,6 @@ Make this relevant
   * [Roblox - sitetest3](http://setup.sitetest3.robloxlabs.com/Roblox.exe)
   * [Roblox - gametest1](http://setup.gametest1.robloxlabs.com/Roblox.exe)
   * [Roblox - gametest2](http://setup.gametest2.robloxlabs.com/Roblox.exe)
-#### macOS
+### macOS
 * [Roblox Studio](http://setup.roblox.com/mac/RobloxStudio.dmg)
 * [Roblox](http://setup.roblox.com/mac/Roblox.dmg)
-</details>
