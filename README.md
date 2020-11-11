@@ -400,6 +400,7 @@ Make this relevant
     * [Example request](https://friends.roblox.com/docs#!/Friends/get_v1_my_friends_count)
   * https://friends.roblox.com/v1/users/306209/friends/count
     * [Example request](https://friends.roblox.com/docs#!/Friends/get_v1_users_userId_friends_count)
+</details>
 
 <details><summary>Get a user's following</summary>
 
