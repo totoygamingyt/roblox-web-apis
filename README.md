@@ -241,6 +241,7 @@ Make this relevant
 * www
   * https://www.roblox.com/my/account/json
   * https://www.roblox.com/my/settings/json
+  * https://www.roblox.com/my/profile
   * https://www.roblox.com/mobileapi/userinfo
 * api
   * https://api.roblox.com/users/account-info
