@@ -209,6 +209,11 @@ Make this relevant
 * https://api.roblox.com/developerproducts/list?placeId=1818&page=1
 </details>
 
+<details><summary>Get a place's allowed experimental features</summary>
+
+* https://api.roblox.com/Game/GetAllowedExperimentalFeatures?placeId=1818
+</details>
+
 ### User APIs
 <details><summary>Get the authenticated user</summary>
 
