@@ -365,6 +365,8 @@ Make this relevant
 <details><summary>Get the premium subscription of a user</summary>
  
  * https://premiumfeatures.roblox.com/v1/users/306209/subscriptions
+ * https://premiumfeatures.roblox.com/v1/users/306209/validate-membership
+   * [Example request](https://premiumfeatures.roblox.com/docs#!/PremiumFeaturesUsers/get_v1_users_userId_validate_membership)
 </details>
 
 <details><summary>Get the authenticated user's friend requests</summary>
