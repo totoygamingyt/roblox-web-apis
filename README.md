@@ -388,7 +388,7 @@ Make this relevant
 <details><summary>Get a user's groups</summary>
 
 * https://api.roblox.com/users/1/groups
-</detailsy>
+</details>
 
 # before
 <details>
