@@ -279,10 +279,15 @@ Make this relevant
 * https://www.roblox.com/users/profile/profileheader-json?userId=306209
 </details>
 
-<details><summary>Get information about a user</summary>
+<details><summary>Get user profile information</summary>
  
 * https://users.roblox.com/v1/users/306209
   * [Example request](https://users.roblox.com/docs#!/Users/get_v1_users_userId)
+</details>
+
+<details><summary>Get gaemes from a user's profile</summary>
+ 
+* https://www.roblox.com/users/profile/playergames-json?userId=306209
 </details>
 
 <details><summary>Get a user's presence</summary>
@@ -300,6 +305,11 @@ Make this relevant
   * https://badges.roblox.com/v1/users/306209/badges
     * [Example request](https://badges.roblox.com/docs#!/BadgeAwards/get_v1_users_userId_badges_awarded_dates)
 </details>
+
+<details><summary>Get all assets of an asset type that a user has favorited</summary>
+* https://www.roblox.com/user/favorites/places
+* https://www.roblox.com/users/favorites/list-json?assetTypeId=9&userId=306209
+</detials>
 
 <details><summary>Get when a user obtained a game badger</summary>
 
