@@ -398,6 +398,12 @@ Make this relevant
 * https://api.roblox.com/users/306209/groups
 </details>
 
+<details><summary>Get games created by a user</summary>
+
+* https://games.roblox.com/v2/users/306209/games
+  * [Example request](https://games.roblox.com/docs#!/Games/get_v2_users_userId_games)
+</details>
+
 ## Clients
 ### Windows
 * [Roblox Studio](http://setup.roblox.com/RobloxStudioLauncherBeta.exe)
