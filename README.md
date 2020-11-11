@@ -422,12 +422,23 @@ Make this relevant
 <details><summary>Get a user's groups</summary>
 
 * https://api.roblox.com/users/306209/groups
+  * [Example request](https://api.roblox.com/docs)
+</details>
+
+<details><summary>Get groups that the authenticated user can manage</summary>
+
+* https://develop.roblox.com//v1/user/groups/canmanage
+  * [Example request](https://develop.roblox.com//docs/#!/User/get_v1_user_groups_canmanage)
 </details>
 
 <details><summary>Get games created by a user</summary>
-
-* https://games.roblox.com/v2/users/306209/games
-  * [Example request](https://games.roblox.com/docs#!/Games/get_v2_users_userId_games)
+ 
+* games
+  * https://games.roblox.com/v2/users/306209/games
+    * [Example request](https://games.roblox.com/docs#!/Games/get_v2_users_userId_games)
+* develop
+  * https://develop.roblox.com/v1/user/universes
+    * [Example request](https://develop.roblox.com/docs#!/User/get_v1_user_universes)
 </details>
 
 <details><summary>Get a user's outfits</summary>
@@ -439,6 +450,12 @@ Make this relevant
 <details><summary>Get the authenticated user's equipped emotes</summary>
  
 * https://avatar.roblox.com/v1/emotes
+</details>
+
+<details><summary>Get if the authenticated user is a verified creator</summary>
+ 
+* https://develop.roblox.com/v1/user/is-verified-creator
+
 </details>
 
 ## Clients
