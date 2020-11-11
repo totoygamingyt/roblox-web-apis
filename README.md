@@ -2,6 +2,7 @@ forked from [matthewdean/roblox-web-apis](https://github.com/matthewdean/roblox-
 
 ## Table of Contents
 * [Roblox API Subdomains](#roblox-api-subdomains)
+* [oAuth2 APIs](#oauth2-apis)
 * [Roblox Web APIs](#web-apis)
   * [Universe APIs](#universe-apis)
   * [Place APIs](#place-apis)
@@ -69,6 +70,26 @@ Complete (duh..)
 Add proper responses and requests (wish GithHub's Markdown allowed showing the content of files in the repo)
 Make this relevant
 -->
+## oAuth2 APIs
+*Earlier in 2020, Roblox implemented oAuth2 into the Creator Dashboard, and now has been used on **2 applications**. It's unsure if Roblox developers will be able to take advantage of it in the future.*
+* oAuth2 Configuration
+  * https://apis.roblox.com/application-authorization/.well-known/openid-configuration
+* Authorization
+  * https://apis.roblox.com/application-authorization/v1/authorize?client_id=CLIENT_ID&scope=SCOPE&response_type=RESPONSE_TYPE&redirect_uri=URI
+* Visual Authorization
+  * https://www.roblox.com/permission-request?client_id=CLIENT_ID&scope=SCOPE&response_type=RESPONSE_TYPE&redirect_uri=URI
+* Known Client IDs
+  * **e3a58e71-5993-4070-a0e1-9c757f6b8748** Creator Dashboard
+  * **b03b1542-931c-4f68-a5c3-3311eeba9ac2** BevyLabs
+* Examples
+  * [Visual (Creator Dashboard)](https://www.roblox.com/permission-request?client_id=e3a58e71-5993-4070-a0e1-9c757f6b8748&scope=openId%20profile&response_type=code&redirect_uri=https://create.roblox.com/home)
+  * [Visual (BevyLabs)](https://www.roblox.com/permission-request?client_id=b03b1542-931c-4f68-a5c3-3311eeba9ac2&scope=openId%20profile&response_type=code&redirect_uri=https://events.rbx.com/accounts/oidc/callback/)
+  * [Direct (Creator Dashboard)](https://apis.roblox.com/application-authorization/v1/authorize?client_id=e3a58e71-5993-4070-a0e1-9c757f6b8748&scope=openId%20profile&response_type=code&redirect_uri=https://create.roblox.com/home)
+  * [Direct (BevyLabs)](https://apis.roblox.com/application-authorization/v1/authorize?client_id=b03b1542-931c-4f68-a5c3-3311eeba9ac2&scope=openId%20profile&response_type=code&redirect_uri=https://events.rbx.com/accounts/oidc/callback/)
+* Other Information
+  * Roblox's oAuth2 codes are around 1604 characters long
+  
+
 ## Web APIs
 *Endpoints on the www subdomain are most likely deprecated, and could be removed by Roblox at any time.*
 
