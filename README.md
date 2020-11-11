@@ -424,7 +424,7 @@ Make this relevant
   * [Example request](https://games.roblox.com/docs#!/Games/get_v2_users_userId_games)
 </details>
 
-<details><summary>Get a user's ouutfits</summary>
+<details><summary>Get a user's outfits</summary>
 
 * https://avatar.roblox.com/v1/users/306209/outfits
   * [Example request](https://avatar.roblox.com/docs#!/Avatar/get_v1_users_userId_outfits)
