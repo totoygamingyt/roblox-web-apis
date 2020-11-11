@@ -316,7 +316,7 @@ Make this relevant
 * https://www.roblox.com/users/profile/profileheader-json?userId=306209
 </details>
 
-<details><summary>Get gaemes from a user's profile</summary>
+<details><summary>Get games from a user's profile</summary>
  
 * https://www.roblox.com/users/profile/playergames-json?userId=306209
 </details>
@@ -389,6 +389,11 @@ Make this relevant
 * friends
   * https://friends.roblox.com/v1/users/306209/friends
     * [Example request](https://friends.roblox.com/docs#!/Friends/get_v1_users_userId_friends)
+</details>
+
+<details><summary>Get the users that the authenticated user has blocked</summary>
+ 
+* https://api.roblox.com/userblock/getblockedusers?page=1
 </details>
 
 <details><summary>Get the number of friends a user has</summary>
