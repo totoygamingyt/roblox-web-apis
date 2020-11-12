@@ -643,6 +643,11 @@ Make this relevant
   * https://economy.roblox.com/v1/products/31
 </details>
 
+<details><summary>Get if the authenticated user can purchase a product</summary>
+
+* https://economy.roblox.com/v1/products/31?showPurchasable=true
+</details>
+
 #### Game Pass APIs
 <details><summary>Get information about a game pass</summary>
  
