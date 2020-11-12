@@ -566,7 +566,14 @@ Make this relevant
   * [Example request](https://api.roblox.com/docs)
 </details>
 
-### Asset APis
+### Marketplace APIs
+#### Asset APIs
+
+#### Product APis
+
+#### Game Pass APIs
+
+#### Badge APis
 
 ## Clients
 ### Windows
