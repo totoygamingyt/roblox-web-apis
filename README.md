@@ -613,13 +613,13 @@ Make this relevant
 <details><summary>Get the file of an asset</summary>
 
 * https://assetdelivery.roblox.com/v1/asset?id=1818
-  * Also accepts userAssetId
+  * Also accepts userAssetId in place of id
 </details>
 
 <details><summary>Get the file of a specific version of an asset</summary>
  
 * https://assetdelivery.roblox.com/v1/asset?id=1818&version=1
-  * Also accepts userAssetId
+  * Also accepts userAssetId in place of id
 </details>
 
 #### Product APis
