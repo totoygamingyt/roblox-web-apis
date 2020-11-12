@@ -661,7 +661,22 @@ Make this relevant
 * https://badges.roblox.com/v1/badges/2124450213
 </details>
 
-### Thumbnail APis
+### Image APis
+<details><summary>Get the media for a universe</summary>
+
+* www
+  * https://www.roblox.com/thumbnail/place-thumbnails?placeId=1818
+ 
+* games
+  * https://games.roblox.com/v2/games/13058/media
+    * [Example request](https://games.roblox.com/docs#!/Games/get_v2_games_universeId_media)
+</details>
+
+<details><summary>Get the icon for a universe</summary>
+ 
+* https://thumbnails.roblox.com/v1/games/icons?universeIds=13058&size=512x512&format=Png
+  * [Example request]https://thumbnails.roblox.com/docs#!/Games/get_v1_games_icons)
+</details>
 
 ## Clients
 ### Windows
