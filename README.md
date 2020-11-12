@@ -616,14 +616,14 @@ Make this relevant
 
 * https://assetdelivery.roblox.com/v1/asset?id=1818
   * [Example request](https://assetdelivery.roblox.com/docs#!/AssetFetch/get_v1_asset)
-  * Also accepts userAssetId in place of id
+  * Also accepts `userAssetId` in place of `id`
 </details>
 
 <details><summary>Get the file of a specific version of an asset</summary>
  
 * https://assetdelivery.roblox.com/v1/asset?id=1818&version=1
   * [Example request](https://assetdelivery.roblox.com/docs#!/AssetFetch/get_v1_asset)
-  * Also accepts userAssetId in place of id
+  * Also accepts `userAssetId` in place of` id`
 </details>
 
 <details><summary>Get all versions of an asset</summary>
@@ -701,6 +701,9 @@ Make this relevant
 
 <details><summary>Get the bust thumbnail of a user</summary>
  
+* assetgame
+  * https://assetgame.roblox.com/Thumbs/Avatar.ashx?username=vCaffy
+    * Also accepts `usserId` in place of `username`
 * www
   * https://www.roblox.com/bust-thumbnail/json?userId=306209&width=420&height=420 (JSON)
   * https://www.roblox.com/bust-thumbnail/image?userId=306209&width=420&height=420 (IMAGE)
