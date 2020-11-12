@@ -524,7 +524,7 @@ Make this relevant
   * [Example request](https://groups.roblox.com/docs#!/Membership/get_v1_groups_groupId_roles_roleSetId_users)
 </details>
 
-<details<summary>Get the settings of a group</summary>
+<details><summary>Get the settings of a group</summary>
 
 * https://groups.roblox.com/v1/groups/1/settings
   * [Example request](https://groups.roblox.com/docs#!/Groups/get_v1_groups_groupId_settings)
