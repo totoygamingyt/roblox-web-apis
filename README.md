@@ -653,7 +653,7 @@ Make this relevant
 <details><summary>Get information about a badge</summary>
  
 * https://badges.roblox.com/v1/badges/2124450213
-</summary>
+</details>
 
 ### Thumbnail APis
 
