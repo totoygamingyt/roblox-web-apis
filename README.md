@@ -765,7 +765,7 @@ https://thumbnailsresizer.roblox.com/docs#!/Resize/get_v1_resize_hash_width_heig
   * https://www.roblox.com/asset-thumbnail/image?assetId=1818&height=420&width=420 (IMAGE)
   * https://www.roblox.com/asset-thumbnail/json?assetId=1818&height=420&width=420 (JSON)
 * thumbnails
-  * https://thumbnails.roblox.com/v1/assets?assetIds=1818&size=420x420&format=Png
+  * https://thumbnails.roblox.com/v1/assets?assetIds=1818&size=420x420&format=Png (JSON)
     * [Example request](https://thumbnails.roblox.com/docs#!/Assets/get_v1_assets)
 </summary>
 
@@ -774,25 +774,25 @@ https://thumbnailsresizer.roblox.com/docs#!/Resize/get_v1_resize_hash_width_heig
 * www
   * https://www.roblox.com/asset-thumbnail-3d/json?assetId=1818 (JSON)
 * thumbnails
-  * https://thumbnails.roblox.com/v1/assets-thumbnail-3d?assetId=1818
+  * https://thumbnails.roblox.com/v1/assets-thumbnail-3d?assetId=1818 (JSON)
     * [Example request](https://thumbnails.roblox.com/docs#!/Assets/get_v1_assets_thumbnail_3d)
 </details>
 
 <details><summary>Get the thumbnail of a bundle</summary>
 
-* https://thumbnails.roblox.com/v1/bundles/thumbnails?bundleIds=1&size=420x420&format=Png
+* https://thumbnails.roblox.com/v1/bundles/thumbnails?bundleIds=1&size=420x420&format=Png (JSON)
   * [Example request](https://thumbnails.roblox.com/docs#!/Bundles/get_v1_bundles_thumbnails)
 </details>
 
 <details><summary>Get the thumbnail of a game pass</summary>
  
-* https://thumbnails.roblox.com/v1/game-passes?gamePassIds=11&size=150x150&format=Png
+* https://thumbnails.roblox.com/v1/game-passes?gamePassIds=11&size=150x150&format=Png (JSON)
   * [Example request](https://thumbnails.roblox.com/docs#!/GamePasses/get_v1_game_passes)
 </details>
 
 <details><summary>Get the thumbnail of a developer product</summary>
  
-* https://thumbnails.roblox.com/v1/developer-products/icons?developerProductIds=31&size=420x420&format=Png
+* https://thumbnails.roblox.com/v1/developer-products/icons?developerProductIds=31&size=420x420&format=Png (JSON)
   * [Example request](https://thumbnails.roblox.com/docs#!/DeveloperProducts/get_v1_developer_products_icons)
 </details>
 
