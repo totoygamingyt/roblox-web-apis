@@ -701,14 +701,14 @@ https://thumbnailsresizer.roblox.com/docs#!/Resize/get_v1_resize_hash_width_heig
     * [Example request](https://thumbnails.roblox.com/docs#!/Avatar/get_v1_users_avatar)
 </detaILs>
 
-<summary><summary>Get 3d avatar information of a user</summary>
+<details><summary>Get 3d avatar information of a user</summary>
  
 * www
   * https://www.roblox.com/avatar-thumbnail-3d/json?userId=306209
 * thumbnails
   * https://thumbnails.roblox.com/v1/users/avatar-3d?userId=306209
     * [Example request](https://thumbnails.roblox.com/docs#!/Avatar/get_v1_users_avatar_3d)
-</summary>
+</details>
 
 <details><summary>Get the avatar headshot thumbnail of a user</summary>
  
