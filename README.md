@@ -352,8 +352,6 @@ Make this relevant
 * badges
   * https://badges.roblox.com/v1/users/306209/badges
     * [Example request](https://badges.roblox.com/docs#!/Badges/get_v1_users_userId_badges)
-  * https://badges.roblox.com/v1/users/306209/badges
-    * [Example request](https://badges.roblox.com/docs#!/BadgeAwards/get_v1_users_userId_badges_awarded_dates)
 </details>
 
 <details><summary>Get all assets of an asset type that a user has favorited</summary>
