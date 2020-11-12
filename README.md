@@ -262,6 +262,12 @@ Make this relevant
     * last used on the Xbox platform
 </details>
 
+<details><summary>Get friend requests and unread messages for the authenticated user</summary>
+ 
+* https://api.roblox.com/incoming-items/counts
+  * [Example request](https://api.roblox.com/docs)
+</details>
+
 <details><summary>Get the balance of the authenticated user</summary>
  
 * api
@@ -534,12 +540,26 @@ Make this relevant
  
 * https://groups.roblox.com/v1/groups/1/wall/posts
   * [Example request](https://groups.roblox.com/docs#!/Wall/get_v1_groups_groupId_wall_posts)
+* https://groups.roblox.com/v2/groups/1/wall/posts
+  * [Example request](https://groups.roblox.com/docs#!/Wall/get_v2_groups_groupId_wall_posts)
 </details>
 
 <details><summary>Get a group's social links</summary>
  
 * https://groups.roblox.com/v1/groups/1/social-links
   * [Example request](https://groups.roblox.com/docs#!/SocialLinks/get_v1_groups_groupId_social_links)
+</details>
+
+<details><summary>Get a group's allies</summary>
+ 
+* https://api.roblox.com/groups/1/allies
+  * [Example request](https://api.roblox.com/docs)
+</details>
+
+<details><summary>Get a group's enemies</summary>
+ 
+* https://api.roblox.com/groups/1/enemies
+  * [Example request](https://api.roblox.com/docs)
 </details>
 
 ### Asset APis
