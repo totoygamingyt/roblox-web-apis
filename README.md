@@ -14,6 +14,7 @@ forked from [matthewdean/roblox-web-apis](https://github.com/matthewdean/roblox-
     * [Product APIs](#product-apis)
     * [Game Pass APIs](#game-pass-apis)
     * [Badge APis](#badge-apis)
+  * [Thumbnail APIs](#thumbnail-apis)
 * [Clients](#clients)
   * [Windows](#windows)
   * [macOS](#macos)
@@ -625,6 +626,7 @@ Make this relevant
 </details>
 
 <details><summary>Get all versions of an asset</summary>
+ 
 * https://api.roblox.com/assets/1818/versions
   * [Example request](https://api.roblox.com/docs)
 * https://api.roblox.com/v2/assets/1818/versions
@@ -652,6 +654,8 @@ Make this relevant
  
 * https://badges.roblox.com/v1/badges/2124450213
 </summary>
+
+### Thumbnail APis
 
 ## Clients
 ### Windows
