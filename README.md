@@ -662,6 +662,13 @@ Make this relevant
 </details>
 
 ### Image APis
+<!--
+<details><summary>Get the resized version of a thumbnail</summary>
+
+pls add i forgot how it works
+https://thumbnailsresizer.roblox.com/docs#!/Resize/get_v1_resize_hash_width_height_type_format_filterType
+</details>
+-->
 <details><summary>Get the media for a universe</summary>
 
 * www
@@ -669,6 +676,9 @@ Make this relevant
 * games
   * https://games.roblox.com/v2/games/13058/media
     * [Example request](https://games.roblox.com/docs#!/Games/get_v2_games_universeId_media)
+* thumbnails
+  * https://thumbnails.roblox.com/v1/games/multiget/thumbnails?universeIds=13058&size=768x432&format=Png
+    * [Example request](https://thumbnails.roblox.com/docs#!/Games/get_v1_games_multiget_thumbnails)
 </details>
 
 <details><summary>Get the icon of a universe</summary>
@@ -677,7 +687,30 @@ Make this relevant
   * [Example request]https://thumbnails.roblox.com/docs#!/Games/get_v1_games_icons)
 </details>
 
-<details><summary>Get the avatar headshot image of a user</summary>
+<details><summary>Get the avatar thumbnail of a user</summary>
+
+* assetgame
+  * https://assetgame.roblox.com/Thumbs/Avatar.ashx?username=vCaffy (IMAGE)
+    * Also accepts `usserId` in place of `username`
+* www
+  * https://www.roblox.com/avatar-thumbnails?params=[{userId:306209}] (JSON)
+  * https://www.roblox.com/avatar-thumbnail/json?userId=306209&height=420&width=420 (SJON)
+  * https://www.roblox.com/avatar-thumbnail/image?userId=306209&height=420&width=420 (IMAGE)
+* thumbnails
+  * https://thumbnails.roblox.com/v1/users/avatar?userIds=306209&size=420x420&format=Png (JSON)
+    * [Example request](https://thumbnails.roblox.com/docs#!/Avatar/get_v1_users_avatar)
+</detaILs>
+
+<summary><summary>Get 3d avatar information of a user</summary>
+ 
+* www
+  * https://www.roblox.com/avatar-thumbnail-3d/json?userId=306209
+* thumbnails
+  * https://thumbnails.roblox.com/v1/users/avatar-3d?userId=306209
+    * [Example request](https://thumbnails.roblox.com/docs#!/Avatar/get_v1_users_avatar_3d)
+</summary>
+
+<details><summary>Get the avatar headshot thumbnail of a user</summary>
  
 * www
   * https://www.roblox.com/thumbnail/avatar-headshot?userId=306209 (JSON)
@@ -689,27 +722,84 @@ Make this relevant
     * [Example request](https://thumbnails.roblox.com/docs#!/Avatar/get_v1_users_avatar_headshot)
 </details>
 
-<details><summary>Get the avatar image of a user</summary>
-
-* www
-  * https://www.roblox.com/avatar-thumbnail/json?userId=306209&height=420&width=420 (SJON)
-  * https://www.roblox.com/avatar-thumbnail/image?userId=306209&height=420&width=420 (IMAGE)
-* thumbnails
-  * https://thumbnails.roblox.com/v1/users/avatar?userIds=306209&size=420x420&format=Png (SJON)
-    * [Example request](https://thumbnails.roblox.com/docs#!/Avatar/get_v1_users_avatar)
-</detaILs>
-
 <details><summary>Get the bust thumbnail of a user</summary>
  
-* assetgame
-  * https://assetgame.roblox.com/Thumbs/Avatar.ashx?username=vCaffy
-    * Also accepts `usserId` in place of `username`
 * www
   * https://www.roblox.com/bust-thumbnail/json?userId=306209&width=420&height=420 (JSON)
   * https://www.roblox.com/bust-thumbnail/image?userId=306209&width=420&height=420 (IMAGE)
 * thumbnails
   * https://thumbnails.roblox.com/v1/users/avatar-bust?userIds=306209&size=75x75&format=Png (JSON)
     * [Example request](https://thumbnails.roblox.com/docs#!/Avatar/get_v1_users_avatar_bust)
+</details>
+
+<details><summary>Get the thumbnail of a user outfit</summary>
+ 
+* www
+  * https://www.roblox.com/outfit-thumbnail/image?userOutfitId=2111&width=420&height=420&format=png (IMAGE)
+* thumbnails
+   * https://thumbnails.roblox.com/v1/users/outfits?userOutfitIds=2111&size=420x420&format=Png (JSON)
+     * [Example request](https://thumbnails.roblox.com/docs#!/Outfits/get_v1_users_outfits)
+</details>
+
+<details><summary>Get the icon of a group</summary>
+ 
+* www
+  * https://www.roblox.com/group-thumbnails?params=[{groupId:1}] (JSON)
+* thumbnails
+  * https://thumbnails.roblox.com/v1/groups/icons?groupIds=1&size=420x420&format=Png (JSON)
+    * [Example request](https://thumbnails.roblox.com/docs#!/GroupEmblem/get_v1_groups_icons)
+</details>
+
+<details><summary>Get the thumbnail of an asset</summary>
+ 
+* assetgame
+  * https://assetgame.roblox.com/Game/Tools/ThumbnailAsset.ashx?aid=1818&fmt=png&wd=420&ht=420 (IMAGE)
+    * Also accepts `assetVersionId` in place of `aid`
+  * https://assetgame.roblox.com/Thumbs/Asset.asmx/RequestThumbnail_v2?assetId=1818&thumbnailFormatId=296&overrideModeration=true (JSON)
+    * Also accepts `assetVersionId` in place of `assetId`
+  * https://assetgame.roblox.com/Thumbs/Asset.ashx?width=420&height=420&assetId=1818 (IMAGE)
+    * Also accepts `assetVersionId` in place of `assetId`
+* www
+  * https://www.roblox.com/item-thumbnails?params=[{assetId:1818}] (JSON)
+  * https://www.roblox.com/Thumbs/RawAsset.ashx?assetId=1818&imageFormat=png&width=420&height=420 (TEXT)
+  * https://www.roblox.com/asset-thumbnail/image?assetId=1818&height=420&width=420 (IMAGE)
+  * https://www.roblox.com/asset-thumbnail/json?assetId=1818&height=420&width=420 (JSON)
+* thumbnails
+  * https://thumbnails.roblox.com/v1/assets?assetIds=1818&size=420x420&format=Png
+    * [Example request](https://thumbnails.roblox.com/docs#!/Assets/get_v1_assets)
+</summary>
+
+<details<summary>Get 3d thumbnail information of an asset</summary>
+
+* www
+  * https://www.roblox.com/asset-thumbnail-3d/json?assetId=1818 (JSON)
+* thumbnails
+  * https://thumbnails.roblox.com/v1/assets-thumbnail-3d?assetId=1818
+    * [Example request](https://thumbnails.roblox.com/docs#!/Assets/get_v1_assets_thumbnail_3d)
+</details>
+
+<details><summary>Get the thumbnail of a bundle</summary>
+
+* https://thumbnails.roblox.com/v1/bundles/thumbnails?bundleIds=1&size=420x420&format=Png
+  * [Example request](https://thumbnails.roblox.com/docs#!/Bundles/get_v1_bundles_thumbnails)
+</details>
+
+<details><summary>Get the thumbnail of a game pass</summary>
+ 
+* https://thumbnails.roblox.com/v1/game-passes?gamePassIds=11&size=150x150&format=Png
+  * [Example request](https://thumbnails.roblox.com/docs#!/GamePasses/get_v1_game_passes)
+</details>
+
+<details><summary>Get the thumbnail of a developer product</summary>
+ 
+* https://thumbnails.roblox.com/v1/developer-products/icons?developerProductIds=31&size=420x420&format=Png
+  * [Example request](https://thumbnails.roblox.com/docs#!/DeveloperProducts/get_v1_developer_products_icons)
+</details>
+
+<details><summary>Get the thumbnail of a badge</summary>
+ 
+* https://thumbnails.roblox.com/v1/badges/icons?badgeIds=2124450213&size=150x150&format=Png
+  * [Example request](https://thumbnails.roblox.com/docs#!/Badges/get_v1_badges_icons)
 </details>
 
 ## Clients
