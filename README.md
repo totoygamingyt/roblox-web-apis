@@ -666,16 +666,47 @@ Make this relevant
 
 * www
   * https://www.roblox.com/thumbnail/place-thumbnails?placeId=1818
- 
 * games
   * https://games.roblox.com/v2/games/13058/media
     * [Example request](https://games.roblox.com/docs#!/Games/get_v2_games_universeId_media)
 </details>
 
-<details><summary>Get the icon for a universe</summary>
+<details><summary>Get the icon of a universe</summary>
  
 * https://thumbnails.roblox.com/v1/games/icons?universeIds=13058&size=512x512&format=Png
   * [Example request]https://thumbnails.roblox.com/docs#!/Games/get_v1_games_icons)
+</details>
+
+<details><summary>Get the avatar headshot image of a user</summary>
+ 
+* www
+  * https://www.roblox.com/thumbnail/avatar-headshot?userId=306209 (JSON)
+  * https://www.roblox.com/headshot-thumbnail/json?userId=306209&width=420&height=420 (JSON)
+  * https://www.roblox.com/headshot-thumbnail/image?userId=306209&width=420&height=420 (IMAGE)
+  * https://www.roblox.com/avatar-thumbnails?params=[{userId:306209}] (JSON
+* thumbnails
+  * https://thumbnails.roblox.com/v1/users/avatar-headshot?userIds=306209&size=420x420&format=Png
+    * [Example request](https://thumbnails.roblox.com/docs#!/Avatar/get_v1_users_avatar_headshot)
+</details>
+
+<details><summary>Get the avatar image of a user</summary>
+
+* www
+  * https://www.roblox.com/avatar-thumbnail/json?userId=306209&height=420&width=420 (SJON)
+  * https://www.roblox.com/avatar-thumbnail/image?userId=306209&height=420&width=420 (IMAGE)
+* thumbnails
+  * https://thumbnails.roblox.com/v1/users/avatar?userIds=306209&size=420x420&format=Png (SJON)
+    * [Example request](https://thumbnails.roblox.com/docs#!/Avatar/get_v1_users_avatar)
+</detaILs>
+
+<details><summary>Get the bust thumbnail of a user</summary>
+ 
+* www
+  * https://www.roblox.com/bust-thumbnail/json?userId=306209&width=420&height=420 (JSON)
+  * https://www.roblox.com/bust-thumbnail/image?userId=306209&width=420&height=420 (IMAGE)
+* thumbnails
+  * https://thumbnails.roblox.com/v1/users/avatar-bust?userIds=306209&size=75x75&format=Png (JSON)
+    * [Example request](https://thumbnails.roblox.com/docs#!/Avatar/get_v1_users_avatar_bust)
 </details>
 
 ## Clients
