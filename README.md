@@ -172,6 +172,7 @@ Make this relevant
 <details><summary>Get badges of a universe</summary>
  
 * https://badges.roblox.com/v1/universes/13058/badges
+  * [Example request](https://badges.roblox.com/docs#!/Badges/get_v1_universes_universeId_badges)
 </details>
 
 <details><summary>Get developer products of a universe</summary>
