@@ -636,7 +636,7 @@ Make this relevant
 <details><summary>Get information about a game pass</summary>
  
 * http://api.roblox.com/marketplace/game-pass-product-info?gamePassId=11
-</summary>
+</details>
 
 #### Badge APis
 <details><summary>Get information about a badge</summary>
