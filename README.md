@@ -149,7 +149,7 @@ Make this relevant
     * [Example request](https://develop.roblox.com/docs#!/Universes/get_v1_universes_universeId_places)
 </details>
 
-<details><summary>Get aliases of a universe</summary>
+<details><summary>Get assets in a universe</summary>
  
 * https://api.roblox.com/universes/get-aliases?universeId=13058&page=1
 </details>
