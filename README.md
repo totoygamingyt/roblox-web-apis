@@ -683,7 +683,7 @@ Make this relevant
   * https://www.roblox.com/thumbnail/avatar-headshot?userId=306209 (JSON)
   * https://www.roblox.com/headshot-thumbnail/json?userId=306209&width=420&height=420 (JSON)
   * https://www.roblox.com/headshot-thumbnail/image?userId=306209&width=420&height=420 (IMAGE)
-  * https://www.roblox.com/avatar-thumbnails?params=[{userId:306209}] (JSON
+  * https://www.roblox.com/avatar-thumbnails?params=[{userId:306209}] (JSON)
 * thumbnails
   * https://thumbnails.roblox.com/v1/users/avatar-headshot?userIds=306209&size=420x420&format=Png
     * [Example request](https://thumbnails.roblox.com/docs#!/Avatar/get_v1_users_avatar_headshot)
