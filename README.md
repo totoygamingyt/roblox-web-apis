@@ -672,18 +672,18 @@ https://thumbnailsresizer.roblox.com/docs#!/Resize/get_v1_resize_hash_width_heig
 <details><summary>Get the media for a universe</summary>
 
 * www
-  * https://www.roblox.com/thumbnail/place-thumbnails?placeId=1818
+  * https://www.roblox.com/thumbnail/place-thumbnails?placeId=1818 (JSON)
 * games
-  * https://games.roblox.com/v2/games/13058/media
+  * https://games.roblox.com/v2/games/13058/media (JSON)
     * [Example request](https://games.roblox.com/docs#!/Games/get_v2_games_universeId_media)
 * thumbnails
-  * https://thumbnails.roblox.com/v1/games/multiget/thumbnails?universeIds=13058&size=768x432&format=Png
+  * https://thumbnails.roblox.com/v1/games/multiget/thumbnails?universeIds=13058&size=768x432&format=Png (JSON)
     * [Example request](https://thumbnails.roblox.com/docs#!/Games/get_v1_games_multiget_thumbnails)
 </details>
 
 <details><summary>Get the icon of a universe</summary>
  
-* https://thumbnails.roblox.com/v1/games/icons?universeIds=13058&size=512x512&format=Png
+* https://thumbnails.roblox.com/v1/games/icons?universeIds=13058&size=512x512&format=Png (JSON)
   * [Example request]https://thumbnails.roblox.com/docs#!/Games/get_v1_games_icons)
 </details>
 
@@ -704,9 +704,9 @@ https://thumbnailsresizer.roblox.com/docs#!/Resize/get_v1_resize_hash_width_heig
 <details><summary>Get 3d avatar information of a user</summary>
  
 * www
-  * https://www.roblox.com/avatar-thumbnail-3d/json?userId=306209
+  * https://www.roblox.com/avatar-thumbnail-3d/json?userId=306209 (JSON)
 * thumbnails
-  * https://thumbnails.roblox.com/v1/users/avatar-3d?userId=306209
+  * https://thumbnails.roblox.com/v1/users/avatar-3d?userId=306209 (JSON)
     * [Example request](https://thumbnails.roblox.com/docs#!/Avatar/get_v1_users_avatar_3d)
 </details>
 
