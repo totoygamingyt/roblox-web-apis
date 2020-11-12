@@ -354,7 +354,8 @@ Make this relevant
     * [Example request](https://badges.roblox.com/docs#!/Badges/get_v1_users_userId_badges)
 </details>
 
-<details><summary>Get all assets of an asset type that a user has favorited</summary>
+<details><summary>Get all assets that a user has favorited by assetTypeId</summary>
+ 
 * https://www.roblox.com/user/favorites/places
 * https://www.roblox.com/users/favorites/list-json?assetTypeId=9&userId=306209
 </details>
@@ -376,7 +377,7 @@ Make this relevant
 * https://www.roblox.com/users/profile/robloxcollections-json?userId=306209
 </details>
 
-<details><summary>Get the inventory of an asset type of a user</summary>
+<details><summary>Get the inventory of a user by assetTypeId</summary>
 
 * www
   * https://www.roblox.com/users/inventory/list-json?assetTypeId=8&userId=306209
