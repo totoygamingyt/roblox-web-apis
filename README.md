@@ -575,6 +575,7 @@ Make this relevant
 </details>
 
 <details><summary>Get a group's funds</summary>
+ 
 * https://economy.roblox.com/v1/groups/1/currency
   * [Example request](https://economy.roblox.com/docs#!/Currency/get_v1_groups_groupId_currency)
 </details>
