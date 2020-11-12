@@ -7,6 +7,8 @@ forked from [matthewdean/roblox-web-apis](https://github.com/matthewdean/roblox-
   * [Universe APIs](#universe-apis)
   * [Place APIs](#place-apis)
   * [User APIs](#user-apis)
+  * [Group APIs](#group-apis)
+  * [Asset APIs](#asset-apis)
 * [Clients](#clients)
   * [Windows](#windows)
   * [macOS](#macos)
@@ -154,6 +156,11 @@ Make this relevant
 <details><summary>Get if cloud editing is enabled on a universe</summary>
  
 * https://api.roblox.com/universes/13058/cloudeditenabled
+</details>
+
+<details><summary>Get the social links of a universe</summary>
+ 
+* https://games.roblox.com/v1/games/1/social-links/list
 </details>
 
 <details><summary>Get badges of a universe</summary>
@@ -457,6 +464,85 @@ Make this relevant
 * https://develop.roblox.com/v1/user/is-verified-creator
 
 </details>
+
+<details><summary>Get the roles for each group a user is in</summary>
+ 
+* https://groups.roblox.com/v2/users/306209/groups/roles
+  * [Example request](https://groups.roblox.com/docs#!/Groups/get_v2_users_userId_groups_roles)
+* https://groups.roblox.com/v1/users/306209/groups/roles
+  * [Example request](https://groups.roblox.com/docs#!/Membership/get_v1_users_userId_groups_roles)
+</details>
+
+<details><summary>Get a user's linked social networks</summary>
+ 
+* https://accountinformation.roblox.com/v1/promotion-channels
+* https://accountinformation.roblox.com/v1/users/306209/promotion-channels
+</details>
+
+### Group APIs
+<details><summary>Get information about a group</summary>
+ 
+* api
+  * https://api.roblox.com/groups/1
+    * [Example request](https://api.roblox.com/docs)
+* groups
+  * https://groups.roblox.com/v2/groups?groupIds=1
+    * [Example request](https://groups.roblox.com/docs#!/Groups/get_v2_groups)
+  * https://groups.roblox.com/v1/groups/1
+    * {Example request](https://groups.roblox.com/docs#!/Groups/get_v1_groups_groupId)
+</details>
+
+<details><summary>Get a group's games</summary>
+ 
+* games
+  * https://games.roblox.com/v2/groups/1/games
+    * [Example request](https://games.roblox.com/docs#!/Games/get_v2_groups_groupId_games)
+  * https://games.roblox.com/v2/groups/1/gamesV2
+    * [Example request](https://games.roblox.com/docs#!/Games/get_v2_groups_groupId_gamesV2)
+    * Differentiates itself from V1 by not allowing Public universes to be accessed
+* develop
+  * https://develop.roblox.com/v1/groups/1/universes
+    * [Example request](https://develop.roblox.com/docs#!/Groups/get_v1_groups_groupId_universes)
+
+</details>
+
+<details><summary>Get a group's rolesets</summary>
+
+* https://groups.roblox.com/v1/groups/1/roles
+  * [Example request](https://groups.roblox.com/docs#!/Membership/get_v1_groups_groupId_roles)
+</details>
+
+<details><summary>Get users in a group</summary>
+ 
+* https://groups.roblox.com/v1/groups/1/users
+  * [Example request](https://groups.roblox.com/docs#!/Membership/get_v1_groups_groupId_users)
+</details>
+
+<details><summary>Get users in a roleset of a group</summary>
+ 
+* https://groups.roblox.com/v1/groups/1/roles/231/users
+  * [Example request](https://groups.roblox.com/docs#!/Membership/get_v1_groups_groupId_roles_roleSetId_users)
+</details>
+
+<details<summary>Get the settings of a group</summary>
+
+* https://groups.roblox.com/v1/groups/1/settings
+  * [Example request](https://groups.roblox.com/docs#!/Groups/get_v1_groups_groupId_settings)
+</details>
+
+<details><summary>Get a group's wall posts</summary>
+ 
+* https://groups.roblox.com/v1/groups/1/wall/posts
+  * [Example request](https://groups.roblox.com/docs#!/Wall/get_v1_groups_groupId_wall_posts)
+</details>
+
+<details><summary>Get a group's social links</summary>
+ 
+* https://groups.roblox.com/v1/groups/1/social-links
+  * [Example request](https://groups.roblox.com/docs#!/SocialLinks/get_v1_groups_groupId_social_links)
+</details>
+
+### Asset APis
 
 ## Clients
 ### Windows
