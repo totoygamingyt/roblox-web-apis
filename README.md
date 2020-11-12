@@ -102,7 +102,7 @@ Make this relevant
   * [Client Info (Creator Dashboard)](https://apis.roblox.com/application-authorization/v1/clients/e3a58e71-5993-4070-a0e1-9c757f6b8748)
   * [Client Info (BevyLabs)](https://apis.roblox.com/application-authorization/v1/clients/b03b1542-931c-4f68-a5c3-3311eeba9ac2)
 * Other Information
-  * Roblox's oAuth2 codes are around 1604 characters long
+  * Roblox's oAuth2 response codes are around 1604 characters long
   
 
 ## Web APIs
@@ -635,7 +635,7 @@ Make this relevant
 </details>
 
 #### Product APis
-*note that Product IDs and Asset IDs are completely different*
+*Note that Product IDs and Asset IDs are completely different*
 <details><summary>Get information about a product</summary>
 
 * api
