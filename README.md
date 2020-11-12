@@ -9,6 +9,7 @@ forked from [matthewdean/roblox-web-apis](https://github.com/matthewdean/roblox-
   * [User APIs](#user-apis)
   * [Group APis](#group-apis)
   * [Marketplace APIs](#marketplace-apis)
+    * [Search APIs](#search-apis)
     * [Asset APIs](#asset-apis)
     * [Product APIs](#product-apis)
     * [Game Pass APIs](#game-pass-apis)
@@ -489,6 +490,12 @@ Make this relevant
 * https://accountinformation.roblox.com/v1/users/306209/promotion-channels
 </details>
 
+<details><summary>Get the authenticated user's creations by assetType</summary>
+ 
+* https://itemconfiguration.roblox.com/v1/creations/get-assets?assetType=1
+  * [Example request](https://itemconfiguration.roblox.com/docs#!/Item/get_v1_creations_get_assets)
+</details>
+
 ### Group APIs
 <details><summary>Get information about a group</summary>
  
@@ -566,14 +573,76 @@ Make this relevant
   * [Example request](https://api.roblox.com/docs)
 </details>
 
+<details><summary>Get a group's funds</summary>
+* https://economy.roblox.com/v1/groups/1/currency
+  * [Example request](https://economy.roblox.com/docs#!/Currency/get_v1_groups_groupId_currency)
+</details>
+
+<details><summary>Get a group's creations by assetType</summary>
+ 
+* https://itemconfiguration.roblox.com/v1/creations/get-assets?assetType=1&groupId=1
+  * [Example request](https://itemconfiguration.roblox.com/docs#!/Item/get_v1_creations_get_assets)
+</details>
+
 ### Marketplace APIs
+### Search APis
+<details><summary>Search assets in the library</summary>
+ 
+* https://search.roblox.com/catalog/json?Category=Decals&SortType=1&Keyword=Bruh
+</details>
+
+<details><summary>Search avatar shop items</summary>
+ 
+* https://catalog.roblox.com/v1/search/items?Category=3&MaxPrice=1000
+  * [Example request](https://developer.roblox.com/en-us/articles/Catalog-API)
+</details>
+
+<details><summary>Search avatar shop items with details</summary>
+
+* https://catalog.roblox.com/v1/search/items/details?Category=3&MaxPrice=1000
+  * [Example request](https://developer.roblox.com/en-us/articles/Catalog-API)
+</details>
+
 #### Asset APIs
+<details><summary>Get information about an asset</summary>
+
+* https://api.roblox.com/marketplace/productinfo?assetId=1818
+  * [Example request](https://api.roblox.com/docs)
+</details>
+
+<details><summary>Get the file of an asset</summary>
+
+* https://assetdelivery.roblox.com/v1/asset?id=1818
+  * Also accepts userAssetId
+</details>
+
+<details><summary>Get the file of a specific version of an asset</summary>
+ 
+* https://assetdelivery.roblox.com/v1/asset?id=1818&version=1
+  * Also accepts userAssetId
+</details>
 
 #### Product APis
+*note that Product IDs and Asset IDs are completely different*
+<details><summary>Get information about a product</summary>
+
+* api
+  * https://api.roblox.com/marketplace/productdetails?productId=31
+* economy
+  * https://economy.roblox.com/v1/products/31
+</details>
 
 #### Game Pass APIs
+<details><summary>Get information about a game pass</summary>
+ 
+* http://api.roblox.com/marketplace/game-pass-product-info?gamePassId=11
+</summary>
 
 #### Badge APis
+<details><summary>Get information about a badge</summary>
+ 
+* https://badges.roblox.com/v1/badges/2124450213
+</summary>
 
 ## Clients
 ### Windows
