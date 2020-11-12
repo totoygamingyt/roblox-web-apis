@@ -613,13 +613,22 @@ Make this relevant
 <details><summary>Get the file of an asset</summary>
 
 * https://assetdelivery.roblox.com/v1/asset?id=1818
+  * [Example request](https://assetdelivery.roblox.com/docs#!/AssetFetch/get_v1_asset)
   * Also accepts userAssetId in place of id
 </details>
 
 <details><summary>Get the file of a specific version of an asset</summary>
  
 * https://assetdelivery.roblox.com/v1/asset?id=1818&version=1
+  * [Example request](https://assetdelivery.roblox.com/docs#!/AssetFetch/get_v1_asset)
   * Also accepts userAssetId in place of id
+</details>
+
+<details><summary>Get all versions of an asset</summary>
+* https://api.roblox.com/assets/1818/versions
+  * [Example request](https://api.roblox.com/docs)
+* https://api.roblox.com/v2/assets/1818/versions
+  * [Example request](https://api.roblox.com/docs)
 </details>
 
 #### Product APis
