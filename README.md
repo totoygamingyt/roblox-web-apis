@@ -360,7 +360,7 @@ Make this relevant
 * https://www.roblox.com/users/favorites/list-json?assetTypeId=9&userId=306209
 </details>
 
-<details><summary>Get when a user obtained a game badger</summary>
+<details><summary>Get when a user obtained a game badge</summary>
 
 * https://badges.roblox.com/v1/users/306209/badges/awarded-dates?badgeIds=31717745
   * [Example request](https://badges.roblox.com/docs#!/BadgeAwards/get_v1_users_userId_badges_awarded_dates)
