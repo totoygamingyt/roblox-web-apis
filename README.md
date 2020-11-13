@@ -347,11 +347,13 @@ Make this relevant
 </details>
 
 <details><summary>Get whether or not a user has a copy of an asset<//summary>
+ 
 * http://api.roblox.com/ownership/hasasset?userId=306209&assetId=1818
   * [Example request](https://api.roblox.com/docs)
 </details>
 
 <details><summary>Get whether or not a user can manage an asset<//summary>
+ 
 * http://api.roblox.com/users/306209/canmanage/1818
   * [Example request](https://api.roblox.com/docs)
 </details>
