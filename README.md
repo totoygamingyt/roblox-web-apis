@@ -14,7 +14,7 @@ forked from [matthewdean/roblox-web-apis](https://github.com/matthewdean/roblox-
     * [Product APIs](#product-apis)
     * [Game Pass APIs](#game-pass-apis)
     * [Badge APis](#badge-apis)
-  * [Thumbnail APIs](#thumbnail-apis)
+  * [Image APIs](#image-apis)
 * [Clients](#clients)
   * [Windows](#windows)
   * [macOS](#macos)
