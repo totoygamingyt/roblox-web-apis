@@ -633,6 +633,12 @@ Make this relevant
   * [Example request](https://api.roblox.com/docs)
 </details>
 
+<details><summary>Get the current assetVersionId of an asset</summary>
+ 
+* https://www.roblox.com/studio/plugins/info?assetId=1818
+  * The `assetVersionId` value is hidden in the HTML source as an input
+</details>
+
 #### Product APis
 *Note that Product IDs and Asset IDs are completely different*
 <details><summary>Get information about a product</summary>
