@@ -82,7 +82,7 @@ Add proper responses and requests (wish GithHub's Markdown allowed showing the c
 Make this relevant
 -->
 ## oAuth2 APIs
-*Earlier in 2020, Roblox implemented oAuth2 into the Creator Dashboard, and now has been used on **2 applications**. It's unsure if Roblox developers will be able to take advantage of it in the future.*
+*Earlier in 2020, Roblox implemented oAuth2 into the Creator Dashboard, and now has been used on **3 applications**. It's unsure if Roblox developers will be able to take advantage of it in the future.*
 * oAuth2 Configuration
   * https://apis.roblox.com/application-authorization/.well-known/openid-configuration
 * Authorization
@@ -94,13 +94,17 @@ Make this relevant
 * Known Client IDs
   * **e3a58e71-5993-4070-a0e1-9c757f6b8748** Creator Dashboard
   * **b03b1542-931c-4f68-a5c3-3311eeba9ac2** BevyLabs
+  * **e7eec6fe-31bd-4b83-be99-f1fd2cabfafb** DevForum
 * Examples
   * [Visual Auth (Creator Dashboard)](https://www.roblox.com/permission-request?client_id=e3a58e71-5993-4070-a0e1-9c757f6b8748&scope=openId%20profile&response_type=code&redirect_uri=https://create.roblox.com/home)
   * [Visual Auth (BevyLabs)](https://www.roblox.com/permission-request?client_id=b03b1542-931c-4f68-a5c3-3311eeba9ac2&scope=openId%20profile&response_type=code&redirect_uri=https://events.rbx.com/accounts/oidc/callback/)
+  * [Visual Auth (DevForum)](https://www.roblox.com/permission-request?client_id=e7eec6fe-31bd-4b83-be99-f1fd2cabfafb&scope=openid%20profile%20email&response_type=code&redirect_uri=https://devforum.roblox.com/auth/oidc/callback)
   * [Direct Auth (Creator Dashboard)](https://apis.roblox.com/application-authorization/v1/authorize?client_id=e3a58e71-5993-4070-a0e1-9c757f6b8748&scope=openId%20profile&response_type=code&redirect_uri=https://create.roblox.com/home)
   * [Direct Auth (BevyLabs)](https://apis.roblox.com/application-authorization/v1/authorize?client_id=b03b1542-931c-4f68-a5c3-3311eeba9ac2&scope=openId%20profile&response_type=code&redirect_uri=https://events.rbx.com/accounts/oidc/callback/)
+  * [Direct Auth (DevForum)](https://apis.roblox.com/application-authorization/v1/authorize?client_id=e7eec6fe-31bd-4b83-be99-f1fd2cabfafb&scope=openid%20profile%20email&response_type=code&redirect_uri=https://devforum.roblox.com/auth/oidc/callback)
   * [Client Info (Creator Dashboard)](https://apis.roblox.com/application-authorization/v1/clients/e3a58e71-5993-4070-a0e1-9c757f6b8748)
   * [Client Info (BevyLabs)](https://apis.roblox.com/application-authorization/v1/clients/b03b1542-931c-4f68-a5c3-3311eeba9ac2)
+  * [Client Info (DevForum)](https://apis.roblox.com/application-authorization/v1/clients/e7eec6fe-31bd-4b83-be99-f1fd2cabfafb)
 * Other Information
   * Roblox's oAuth2 response codes are around 1604 characters long
   
