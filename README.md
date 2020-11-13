@@ -670,13 +670,13 @@ Make this relevant
 * http://api.roblox.com/marketplace/game-pass-product-info?gamePassId=11
 </details>
 
-#### Badge APis
+#### Badge APIs
 <details><summary>Get information about a badge</summary>
  
 * https://badges.roblox.com/v1/badges/2124450213
 </details>
 
-### Image APis
+### Image APIs
 <!--
 <details><summary>Get the resized version of a thumbnail</summary>
 
