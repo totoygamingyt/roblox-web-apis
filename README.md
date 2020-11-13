@@ -269,7 +269,7 @@ Make this relevant
     * last used on the Xbox platform
 </details>
 
-<details><summary>Get friend requests and unread messages for the authenticated user</summary>
+<details><summary>Get number of friend requests and unread messages for the authenticated user</summary>
  
 * https://api.roblox.com/incoming-items/counts
   * [Example request](https://api.roblox.com/docs)
@@ -521,7 +521,6 @@ Make this relevant
 * develop
   * https://develop.roblox.com/v1/groups/1/universes
     * [Example request](https://develop.roblox.com/docs#!/Groups/get_v1_groups_groupId_universes)
-
 </details>
 
 <details><summary>Get a group's rolesets</summary>
@@ -647,6 +646,16 @@ Make this relevant
 <details><summary>Get if the authenticated user can purchase a product</summary>
 
 * https://economy.roblox.com/v1/products/31?showPurchasable=true
+</details>
+
+<details><summary>Get premium features products</summary>
+ 
+* https://premiumfeatures.roblox.com/v1/products
+</details>
+
+<details><summary>Get premium features products by typeName</summary>
+ 
+* https://premiumfeatures.roblox.com/v1/products?typeName=Subscription
 </details>
 
 #### Game Pass APIs
