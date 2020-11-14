@@ -151,6 +151,7 @@ Make this relevant
 * develop
   * https://develop.roblox.com/v1/universes/13058/places
     * [Example request](https://develop.roblox.com/docs#!/Universes/get_v1_universes_universeId_places)
+  * https://develop.roblox.com/v2/universes/13058/places
 </details>
 
 <details><summary>Get assets in a universe</summary>
