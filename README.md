@@ -743,6 +743,11 @@ https://thumbnailsresizer.roblox.com/docs#!/Resize/get_v1_resize_hash_width_heig
   * [Example request]https://thumbnails.roblox.com/docs#!/Games/get_v1_games_icons)
 </details>
 
+<details><summary>Get the icon of a universe for every supported language</summary>
+ 
+* https://gameinternationalization.roblox.com/v1/game-icon/games/13058
+</details>
+
 <details><summary>Get the avatar thumbnail of a user</summary>
 
 * assetgame
