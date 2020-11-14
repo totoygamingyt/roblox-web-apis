@@ -686,12 +686,14 @@ Make this relevant
 <details><summary>Get information about a game pass</summary>
  
 * http://api.roblox.com/marketplace/game-pass-product-info?gamePassId=11
+  * [Example request](https://api.roblox.com/docs)
 </details>
 
 #### Badge APIs
 <details><summary>Get information about a badge</summary>
  
 * https://badges.roblox.com/v1/badges/2124450213
+  * [Example request](https://badges.roblox.com/docs#!/Badges/get_v1_badges_badgeId)
 </details>
 
 ### Image APIs
