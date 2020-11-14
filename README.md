@@ -515,6 +515,19 @@ Make this relevant
   * [Example request](https://itemconfiguration.roblox.com/docs#!/Item/get_v1_creations_get_assets)
 </details>
 
+<details><summary>Get the authenticated user's permissions for an asset</summary>
+ 
+* https://develop.roblox.com/v1/packages/assets/highest-permissions?assetIds=1818
+* https://develop.roblox.com/v1/packages/assets/1818/permissions
+</details>
+
+<details><summary>Get the authenticated user's permission for a universe</summary>
+ 
+* https://develop.roblox.com/v2/universes/13058/permissions
+* https://develop.roblox.com/v1/universes/13058/permissions
+  * [Example request](https://develop.roblox.com/docs#!/Universes/get_v1_universes_universeId_permissions)
+</details>
+
 ### Group APIs
 <details><summary>Get information about a group</summary>
  
@@ -645,16 +658,24 @@ Make this relevant
 
 <details><summary>Get all versions of an asset</summary>
  
-* https://api.roblox.com/assets/1818/versions
-  * [Example request](https://api.roblox.com/docs)
-* https://api.roblox.com/v2/assets/1818/versions
-  * [Example request](https://api.roblox.com/docs)
+* api
+  * https://api.roblox.com/assets/1818/versions
+    * [Example request](https://api.roblox.com/docs)
+  * https://api.roblox.com/v2/assets/1818/versions
+    * [Example request](https://api.roblox.com/docs)
+* develop
+  * https://develop.roblox.com/v1/assets/1818/saved-versions
 </details>
 
 <details><summary>Get the current assetVersionId of an asset</summary>
  
 * https://www.roblox.com/studio/plugins/info?assetId=1818
   * The `assetVersionId` value is hidden in the HTML source as an input
+</details>
+
+<details><summary>Get if an asset's type is an animation/summary>
+ 
+* https://www.roblox.com/studio/animations/validateId?animationId=4751204380
 </details>
 
 #### Product APis
