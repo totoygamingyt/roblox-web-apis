@@ -673,7 +673,7 @@ Make this relevant
   * The `assetVersionId` value is hidden in the HTML source as an input
 </details>
 
-<details><summary>Get if an asset's type is an animation/summary>
+<details><summary>Get if an asset's type is an animation</summary>
  
 * https://www.roblox.com/studio/animations/validateId?animationId=4751204380
 </details>
