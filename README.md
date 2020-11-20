@@ -458,8 +458,12 @@ Make this relevant
 
 <details><summary>Get a user's groups</summary>
 
-* https://api.roblox.com/users/306209/groups
-  * [Example request](https://api.roblox.com/docs)
+* api
+  * https://api.roblox.com/users/306209/groups
+    * Most likely a proxy to the **groups/v0** version
+    * [Example request](https://api.roblox.com/docs)
+* groups
+  * https://groups.roblox.com/v0/users/1/groups
 </details>
 
 <details><summary>Get groups that the authenticated user can manage</summary>
@@ -533,8 +537,10 @@ Make this relevant
  
 * api
   * https://api.roblox.com/groups/1
+    * Most likely a proxy to the **groups/v0** version
     * [Example request](https://api.roblox.com/docs)
 * groups
+  * https://groups.roblox.com/v0/groups/1
   * https://groups.roblox.com/v2/groups?groupIds=1
     * [Example request](https://groups.roblox.com/docs#!/Groups/get_v2_groups)
   * https://groups.roblox.com/v1/groups/1
@@ -594,14 +600,22 @@ Make this relevant
 
 <details><summary>Get a group's allies</summary>
  
-* https://api.roblox.com/groups/1/allies
-  * [Example request](https://api.roblox.com/docs)
+* api
+  * https://api.roblox.com/groups/1/allies
+    * Most likely a proxy to the **groups/v0** version
+    * [Example request](https://api.roblox.com/docs)
+* groups
+  * https://groups.roblox.com/v0/groups/1/relationships?relationshipType=ally
 </details>
 
 <details><summary>Get a group's enemies</summary>
  
-* https://api.roblox.com/groups/1/enemies
-  * [Example request](https://api.roblox.com/docs)
+* api
+  * https://api.roblox.com/groups/1/enemies
+    * Most likely a proxy to the **groups/v0** version
+    * [Example request](https://api.roblox.com/docs)
+* groups
+  * https://groups.roblox.com/v0/groups/1/relationships?relationshipType=enemy
 </details>
 
 <details><summary>Get a group's funds</summary>
