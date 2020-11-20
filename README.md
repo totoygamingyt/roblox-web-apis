@@ -637,6 +637,35 @@ Make this relevant
 * https://search.roblox.com/catalog/json?Category=Decals&SortType=1&Keyword=Bruh
 </details>
 
+<details><summary>Search assets in the toolbox</summary>
+ 
+* apis
+  * https://apis.roblox.com/toolbox-service/v1/Models
+    * Used by the in-game Toolbox, use may be limited and could be removed at any time.
+* www
+  * https://www.roblox.com/IDE/Toolbox/Items?category=FreeModels&keyword=Yes
+* develop
+  * https://develop.roblox.com/v1/toolbox/items?category=FreeModels&keyword=Yes
+    * [Example request](https://develop.roblox.com/docs#!/Toolbox2014/get_v1_toolbox_items)
+</details>
+
+<details><summary>Search users</summary>
+
+* www
+  * https://www.roblox.com/search/users/results?keyword=vCaffy
+* users
+  * https://users.roblox.com/v1/users/search?keyword=vCaffy
+    * [Example request](https://users.roblox.com/docs#!/UserSearch/get_v1_users_search)
+</details>
+
+<details><summary>Search groups</summary>
+ 
+* https://groups.roblox.com/v1/groups/search?keyword=Roblox
+  * [Example request](https://groups.roblox.com/docs#!/GroupSearch/get_v1_groups_search)
+* https://groups.roblox.com/v1/groups/search/lookup?groupName=Roblox
+  * [Example request](https://groups.roblox.com/docs#!/GroupSearch/get_v1_groups_search_lookup)
+</details>
+
 <details><summary>Search avatar shop items</summary>
  
 * https://catalog.roblox.com/v1/search/items?Category=3&MaxPrice=1000
