@@ -544,7 +544,7 @@ Make this relevant
   * https://groups.roblox.com/v2/groups?groupIds=1
     * [Example request](https://groups.roblox.com/docs#!/Groups/get_v2_groups)
   * https://groups.roblox.com/v1/groups/1
-    * {Example request](https://groups.roblox.com/docs#!/Groups/get_v1_groups_groupId)
+    * [Example request](https://groups.roblox.com/docs#!/Groups/get_v1_groups_groupId)
 </details>
 
 <details><summary>Get a group's games</summary>
