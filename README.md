@@ -241,11 +241,11 @@ Make this relevant
 ### User APIs
 <details><summary>Get the authenticated user</summary>
 
+* www
+  * https://www.roblox.com/Game/GetCurrentUser.ashx
 * users
   * https://users.roblox.com/v1/users/authenticated
     * [Example request](https://users.roblox.com/docs#!/Users/get_v1_users_authenticated)
-* assetgame
-  * https://assetgame.roblox.com/Game/GetCurrentUser.ashx
 </details>
 
 <details><summary>Get information about a user</summary>
@@ -793,13 +793,12 @@ https://thumbnailsresizer.roblox.com/docs#!/Resize/get_v1_resize_hash_width_heig
 
 <details><summary>Get the avatar thumbnail of a user</summary>
 
-* assetgame
-  * https://assetgame.roblox.com/Thumbs/Avatar.ashx?username=vCaffy (IMAGE)
-    * Also accepts `usserId` in place of `username`
 * www
   * https://www.roblox.com/avatar-thumbnails?params=[{userId:306209}] (JSON)
   * https://www.roblox.com/avatar-thumbnail/json?userId=306209&height=420&width=420 (SJON)
   * https://www.roblox.com/avatar-thumbnail/image?userId=306209&height=420&width=420 (IMAGE)
+  * https://www.roblox.com/Thumbs/Avatar.ashx?username=vCaffy (IMAGE)
+     * Also accepts `usserId` in place of `username`
 * thumbnails
   * https://thumbnails.roblox.com/v1/users/avatar?userIds=306209&size=420x420&format=Png (JSON)
     * [Example request](https://thumbnails.roblox.com/docs#!/Avatar/get_v1_users_avatar)
@@ -856,18 +855,17 @@ https://thumbnailsresizer.roblox.com/docs#!/Resize/get_v1_resize_hash_width_heig
 
 <details><summary>Get the thumbnail of an asset</summary>
  
-* assetgame
-  * https://assetgame.roblox.com/Game/Tools/ThumbnailAsset.ashx?aid=1818&fmt=png&wd=420&ht=420 (IMAGE)
-    * Also accepts `assetVersionId` in place of `aid`
-  * https://assetgame.roblox.com/Thumbs/Asset.asmx/RequestThumbnail_v2?assetId=1818&thumbnailFormatId=296&overrideModeration=true (JSON)
-    * Also accepts `assetVersionId` in place of `assetId`
-  * https://assetgame.roblox.com/Thumbs/Asset.ashx?width=420&height=420&assetId=1818 (IMAGE)
-    * Also accepts `assetVersionId` in place of `assetId`
 * www
   * https://www.roblox.com/item-thumbnails?params=[{assetId:1818}] (JSON)
   * https://www.roblox.com/Thumbs/RawAsset.ashx?assetId=1818&imageFormat=png&width=420&height=420 (TEXT)
   * https://www.roblox.com/asset-thumbnail/image?assetId=1818&height=420&width=420 (IMAGE)
   * https://www.roblox.com/asset-thumbnail/json?assetId=1818&height=420&width=420 (JSON)
+  * https://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?aid=1818&fmt=png&wd=420&ht=420 (IMAGE)
+    * Also accepts `assetVersionId` in place of `aid`
+  * https://www.roblox.com/Thumbs/Asset.asmx/RequestThumbnail_v2?assetId=1818&thumbnailFormatId=296&overrideModeration=true (JSON)
+    * Also accepts `assetVersionId` in place of `assetId`
+  * https://www.roblox.com/Thumbs/Asset.ashx?width=420&height=420&assetId=1818 (IMAGE)
+    * Also accepts `assetVersionId` in place of `assetId`
 * thumbnails
   * https://thumbnails.roblox.com/v1/assets?assetIds=1818&size=420x420&format=Png (JSON)
     * [Example request](https://thumbnails.roblox.com/docs#!/Assets/get_v1_assets)
