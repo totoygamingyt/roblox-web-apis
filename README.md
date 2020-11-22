@@ -164,7 +164,7 @@ Make this relevant
 * https://develop.roblox.com/v1/universes/13058/symbolic-links
 </details>
 
-<details><summary>Get if cloud editing is enabled on a universe</summary>
+<details><summary>Get if cloud editing is enabled in a universe</summary>
  
 * https://api.roblox.com/universes/13058/cloudeditenabled
 </details>
@@ -184,6 +184,8 @@ Make this relevant
  
 * https://api.roblox.com/developerproducts/list?universeId=13058&page=1
 </details>
+
+
 
 ### Place APIs
 <details><summary>Get information about a place</summary>
