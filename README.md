@@ -11,6 +11,7 @@ forked from [matthewdean/roblox-web-apis](https://github.com/matthewdean/roblox-
   * [Marketplace APIs](#marketplace-apis)
     * [Search APIs](#search-apis)
     * [Asset APIs](#asset-apis)
+    * [Bundle APIs](#bundle-apis)
     * [Product APIs](#product-apis)
     * [Game Pass APIs](#game-pass-apis)
     * [Badge APis](#badge-apis)
@@ -683,8 +684,11 @@ Make this relevant
 #### Asset APIs
 <details><summary>Get information about an asset</summary>
 
-* https://api.roblox.com/marketplace/productinfo?assetId=1818
-  * [Example request](https://api.roblox.com/docs)
+* api 
+  * https://api.roblox.com/marketplace/productinfo?assetId=1818
+    * [Example request](https://api.roblox.com/docs)
+* catalog
+  * https://catalog.roblox.com/v1/catalog/items/1818/details?itemType=Asset
 </details>
 
 <details><summary>Get the file of an asset</summary>
@@ -699,6 +703,12 @@ Make this relevant
 * https://assetdelivery.roblox.com/v1/asset?id=1818&version=1
   * [Example request](https://assetdelivery.roblox.com/docs#!/AssetFetch/get_v1_asset)
   * Also accepts `userAssetId` in place of` id`
+</details>
+
+<details><summary>Get bundles that an asset is in </summary>
+ 
+* https://catalog.roblox.com/v1/assets/1818/bundles
+  * [Example request](https://catalog.roblox.com/docs#!/Bundle/get_v1_assets_assetId_bundles)
 </details>
 
 <details><summary>Get all versions of an asset</summary>
@@ -721,6 +731,16 @@ Make this relevant
 <details><summary>Get if an asset's type is an animation</summary>
  
 * https://www.roblox.com/studio/animations/validateId?animationId=4751204380
+</details>
+
+### Bundle APIs
+<details><summary>Get information about a bundle</summary>
+ 
+* https://catalog.roblox.com/v1/catalog/items/1/details?itemType=Bundle
+* https://catalog.roblox.com/v1/bundles/1/details
+  * [Example requset](https://catalog.roblox.com/docs#!/Bundle/get_v1_bundles_bundleId_details)
+* https://catalog.roblox.com/v1/bundles/details?bundleIds=1
+  * [Example request](https://catalog.roblox.com/docs#!/Bundle/get_v1_bundles_details)
 </details>
 
 #### Product APis
