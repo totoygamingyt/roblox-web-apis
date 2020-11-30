@@ -96,16 +96,20 @@ Make this relevant
   * **e3a58e71-5993-4070-a0e1-9c757f6b8748** Creator Dashboard
   * **b03b1542-931c-4f68-a5c3-3311eeba9ac2** BevyLabs
   * **e7eec6fe-31bd-4b83-be99-f1fd2cabfafb** DevForum
+  * **101b0c0b-7093-4902-b3a9-e63787893a3d** Talent Hub
 * Examples
   * [Visual Auth (Creator Dashboard)](https://www.roblox.com/permission-request?client_id=e3a58e71-5993-4070-a0e1-9c757f6b8748&scope=openId%20profile&response_type=code&redirect_uri=https://create.roblox.com/home)
   * [Visual Auth (BevyLabs)](https://www.roblox.com/permission-request?client_id=b03b1542-931c-4f68-a5c3-3311eeba9ac2&scope=openId%20profile&response_type=code&redirect_uri=https://events.rbx.com/accounts/oidc/callback/)
   * [Visual Auth (DevForum)](https://www.roblox.com/permission-request?client_id=e7eec6fe-31bd-4b83-be99-f1fd2cabfafb&scope=openid%20profile%20email&response_type=code&redirect_uri=https://devforum.roblox.com/auth/oidc/callback)
+  * [Visual Auth (Talent Hub)](https://www.roblox.com/permission-request?client_id=101b0c0b-7093-4902-b3a9-e63787893a3d&scope=profile&response_type=none&redirect_uri=https://talent.roblox.com/search)
   * [Direct Auth (Creator Dashboard)](https://apis.roblox.com/application-authorization/v1/authorize?client_id=e3a58e71-5993-4070-a0e1-9c757f6b8748&scope=openId%20profile&response_type=code&redirect_uri=https://create.roblox.com/home)
   * [Direct Auth (BevyLabs)](https://apis.roblox.com/application-authorization/v1/authorize?client_id=b03b1542-931c-4f68-a5c3-3311eeba9ac2&scope=openId%20profile&response_type=code&redirect_uri=https://events.rbx.com/accounts/oidc/callback/)
   * [Direct Auth (DevForum)](https://apis.roblox.com/application-authorization/v1/authorize?client_id=e7eec6fe-31bd-4b83-be99-f1fd2cabfafb&scope=openid%20profile%20email&response_type=code&redirect_uri=https://devforum.roblox.com/auth/oidc/callback)
+  * [Direct Auth (Talent Hub)](https://apis.roblox.com/application-authorization/v1/authorize?client_id=101b0c0b-7093-4902-b3a9-e63787893a3d&scope=openid%20profile%20email&response_type=code&redirect_uri=https://talent.roblox.com/search)
   * [Client Info (Creator Dashboard)](https://apis.roblox.com/application-authorization/v1/clients/e3a58e71-5993-4070-a0e1-9c757f6b8748)
   * [Client Info (BevyLabs)](https://apis.roblox.com/application-authorization/v1/clients/b03b1542-931c-4f68-a5c3-3311eeba9ac2)
   * [Client Info (DevForum)](https://apis.roblox.com/application-authorization/v1/clients/e7eec6fe-31bd-4b83-be99-f1fd2cabfafb)
+  * [Client Info (Talent Hub)](https://apis.roblox.com/application-authorization/v1/clients/101b0c0b-7093-4902-b3a9-e63787893a3d)
 * Other Information
   * Roblox's oAuth2 response codes are around 1604 characters long
   
