@@ -143,7 +143,7 @@ Make this relevant
      
 </details>
 
-<details><summary>Get gamepasses of a universe</summary>
+<details><summary>Get a universe's gamepasses</summary>
  
 * https://games.roblox.com/v1/games/13058/game-passes
   * [Example request](https://games.roblox.com/docs#!/GamePasses/get_v1_games_universeId_game_passes)
@@ -223,6 +223,11 @@ Make this relevant
     * [Example request](https://games.roblox.com/docs#!/Games/get_v1_games_placeId_servers_serverType)
   * https://games.roblox.com/v1/games/1818/servers/VIP
     * [Example request](https://games.roblox.com/docs#!/Games/get_v1_games_placeId_servers_serverType)
+</details>
+
+<details><summary>Get a place's gamepasses</summary>
+ 
+* https://www.roblox.com/games/getgamepassespaged?placeId=2414851778&startIndex=0&maxRows=50
 </details>
 
 <details><summary>Get information about a user's avatar in a place</summary>
