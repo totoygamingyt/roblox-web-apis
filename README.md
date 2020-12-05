@@ -176,7 +176,7 @@ Make this relevant
 
 <details><summary>Get the social links of a universe</summary>
  
-* https://games.roblox.com/v1/games/1/social-links/list
+* https://games.roblox.com/v1/games/13058/social-links/list
 </details>
 
 <details><summary>Get badges of a universe</summary>
