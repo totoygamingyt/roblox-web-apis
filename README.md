@@ -360,7 +360,10 @@ Make this relevant
 
 <details><summary>Get a user's presence</summary>
 
-* http://api.roblox.com/users/306209/onlinestatus
+* www
+  * https://www.roblox.com/search/users/presence?userIds=306209
+* api
+  * http://api.roblox.com/users/306209/onlinestatus
 </details>
 
 <details><summary>Get if a user has a copy of an asset</summary>
