@@ -432,6 +432,8 @@ Make this relevant
 
 <details><summary>Get a user's friends</summary>
 
+* www
+  * https://www.roblox.com/users/friends/list-json?userId=306209
 * api
   * https://api.roblox.com/users/306209/friends
     * [Example request](https://api.roblox.com/docs)
