@@ -16,6 +16,11 @@ forked from [matthewdean/roblox-web-apis](https://github.com/matthewdean/roblox-
     * [Game Pass APIs](#game-pass-apis)
     * [Badge APis](#badge-apis)
   * [Image APIs](#image-apis)
+* [Roblox Translation APIs](#translation-apis)
+  * [Translations](#translations)
+    * [All Supported Languages](#all-supported-languages)
+    * [Language-specific](#language-specific)
+  * [Miscellaneous](#miscellaneous)
 * [Clients](#clients)
   * [Windows](#windows)
   * [macOS](#macos)
@@ -232,7 +237,10 @@ Make this relevant
 
 <details><summary>Get information about a user's avatar in a place</summary>
 
-* https://api.roblox.com/v1.1/avatar-fetch?placeId=1818&userId=306209
+* api
+  * https://api.roblox.com/v1.1/avatar-fetch?placeId=1818&userId=306209
+* avatar
+  * https://avatar.roblox.com/v1/avatar-fetch?placeId=1818&userId=306209
 </details>
 
 <details><summary>Get the universe that a place is assigned to</summary>
@@ -820,11 +828,6 @@ https://thumbnailsresizer.roblox.com/docs#!/Resize/get_v1_resize_hash_width_heig
  
 * https://thumbnails.roblox.com/v1/games/icons?universeIds=13058&size=512x512&format=Png (JSON)
   * [Example request]https://thumbnails.roblox.com/docs#!/Games/get_v1_games_icons)
-</details>
-
-<details><summary>Get the icon of a universe for every supported language</summary>
- 
-* https://gameinternationalization.roblox.com/v1/game-icon/games/13058
 </details>
 
 <details><summary>Get the avatar thumbnail of a user</summary>
