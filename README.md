@@ -1,9 +1,9 @@
 forked from [matthewdean/roblox-web-apis](https://github.com/matthewdean/roblox-web-apis)<br />
 
 ## Table of Contents
-* [Roblox API Subdomains](#roblox-api-subdomains)
+* [Subdomains](#subdomains)
 * [oAuth2 APIs](#oauth2-apis)
-* [Roblox Web APIs](#web-apis)
+* [Web APIs](#web-apis)
   * [Universe APIs](#universe-apis)
   * [Place APIs](#place-apis)
   * [User APIs](#user-apis)
@@ -16,7 +16,7 @@ forked from [matthewdean/roblox-web-apis](https://github.com/matthewdean/roblox-
     * [Game Pass APIs](#game-pass-apis)
     * [Badge APis](#badge-apis)
   * [Image APIs](#image-apis)
-* [Roblox Translation APIs](#translation-apis)
+* [Translation Web APIs](#translation-apis)
   * [Translations](#translations)
     * [All Supported Languages](#all-supported-languages)
     * [Language-specific](#language-specific)
@@ -25,7 +25,7 @@ forked from [matthewdean/roblox-web-apis](https://github.com/matthewdean/roblox-
   * [Windows](#windows)
   * [macOS](#macos)
 
-## Roblox API Subdomains
+## Subdomains
 *click a link to be directed to the public documentation, for a complete documentation of all APIs in one webpage, visit [here](https://api.roblox.com/docs?useConsolidatedPage=true)*
 | Site | Description |
 | -: | :- |
