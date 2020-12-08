@@ -845,7 +845,7 @@ https://thumbnailsresizer.roblox.com/docs#!/Resize/get_v1_resize_hash_width_heig
   * https://www.roblox.com/avatar-thumbnail/json?userId=306209&height=420&width=420 (SJON)
   * https://www.roblox.com/avatar-thumbnail/image?userId=306209&height=420&width=420 (IMAGE)
   * https://www.roblox.com/Thumbs/Avatar.ashx?username=vCaffy (IMAGE)
-     * Also accepts `usserId` in place of `username`
+     * Also accepts `userId` in place of `username`
 * thumbnails
   * https://thumbnails.roblox.com/v1/users/avatar?userIds=306209&size=420x420&format=Png (JSON)
     * [Example request](https://thumbnails.roblox.com/docs#!/Avatar/get_v1_users_avatar)
