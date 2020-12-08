@@ -835,7 +835,7 @@ https://thumbnailsresizer.roblox.com/docs#!/Resize/get_v1_resize_hash_width_heig
 <details><summary>Get the icon of a universe</summary>
  
 * https://thumbnails.roblox.com/v1/games/icons?universeIds=13058&size=512x512&format=Png (JSON)
-  * [Example request]https://thumbnails.roblox.com/docs#!/Games/get_v1_games_icons)
+  * [Example request](https://thumbnails.roblox.com/docs#!/Games/get_v1_games_icons)
 </details>
 
 <details><summary>Get the avatar thumbnail of a user</summary>
