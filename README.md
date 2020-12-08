@@ -270,6 +270,8 @@ Make this relevant
 
 <details><summary>Get information about a user</summary>
 
+* www
+  * https://www.roblox.com/profile?userId=306209
 * api
   * https://api.roblox.com/users/get-by-username?username=vCaffy
     * [Example request](https://api.roblox.com/docs)
