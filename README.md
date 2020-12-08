@@ -172,6 +172,7 @@ Make this relevant
 <details><summary>Get symbolic links of a universe</summary>
 
 * https://develop.roblox.com/v1/universes/13058/symbolic-links
+* https://develop.roblox.com/v2/universes/13058/symbolic-links
 </details>
 
 <details><summary>Get if cloud editing is enabled in a universe</summary>
