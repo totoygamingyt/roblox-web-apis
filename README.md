@@ -918,7 +918,7 @@ https://thumbnailsresizer.roblox.com/docs#!/Resize/get_v1_resize_hash_width_heig
     * [Example request](https://thumbnails.roblox.com/docs#!/Assets/get_v1_assets)
 </details>
 
-<details<summary>Get 3d thumbnail information of an asset</summary>
+<details><summary>Get 3d thumbnail information of an asset</summary>
 
 * www
   * https://www.roblox.com/asset-thumbnail-3d/json?assetId=1818 (JSON)
