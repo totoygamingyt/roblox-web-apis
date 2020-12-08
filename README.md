@@ -634,6 +634,8 @@ Make this relevant
     * [Example request](https://api.roblox.com/docs)
 * groups
   * https://groups.roblox.com/v0/groups/1/relationships?relationshipType=ally
+  * https://groups.roblox.com/v1/groups/1/relationships/allies?model.startRowIndex=0&model.maxRows=50
+    * [Example request](https://groups.roblox.com/docs#!/Relationships/get_v1_groups_groupId_relationships_groupRelationshipType)
 </details>
 
 <details><summary>Get a group's enemies</summary>
@@ -644,6 +646,8 @@ Make this relevant
     * [Example request](https://api.roblox.com/docs)
 * groups
   * https://groups.roblox.com/v0/groups/1/relationships?relationshipType=enemy
+  * https://groups.roblox.com/v1/groups/1/relationships/enemies?model.startRowIndex=0&model.maxRows=50
+    * [Example request](https://groups.roblox.com/docs#!/Relationships/get_v1_groups_groupId_relationships_groupRelationshipType)
 </details>
 
 <details><summary>Get a group's funds</summary>
@@ -745,6 +749,7 @@ Make this relevant
     * [Example request](https://api.roblox.com/docs)
 * develop
   * https://develop.roblox.com/v1/assets/1818/saved-versions
+  * https://develop.roblox.com/v1/assets/1818/published-versions
 </details>
 
 <details><summary>Get the current assetVersionId of an asset</summary>
