@@ -916,7 +916,7 @@ https://thumbnailsresizer.roblox.com/docs#!/Resize/get_v1_resize_hash_width_heig
 * thumbnails
   * https://thumbnails.roblox.com/v1/assets?assetIds=1818&size=420x420&format=Png (JSON)
     * [Example request](https://thumbnails.roblox.com/docs#!/Assets/get_v1_assets)
-</summary>
+</details>
 
 <details<summary>Get 3d thumbnail information of an asset</summary>
 
