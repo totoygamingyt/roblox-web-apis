@@ -466,6 +466,7 @@ Make this relevant
  
 * api
   * https://api.roblox.com/user/get-friendship-count?userId=306209
+    * [Example request](https://api.roblox.com/docs)
 * friends
   * https://friends.roblox.com/v1/my/friends/count
     * [Example request](https://friends.roblox.com/docs#!/Friends/get_v1_my_friends_count)
@@ -525,7 +526,6 @@ Make this relevant
 <details><summary>Get if the authenticated user is a verified creator</summary>
  
 * https://develop.roblox.com/v1/user/is-verified-creator
-
 </details>
 
 <details><summary>Get the roles for each group a user is in</summary>
@@ -539,7 +539,9 @@ Make this relevant
 <details><summary>Get a user's linked social networks</summary>
  
 * https://accountinformation.roblox.com/v1/promotion-channels
+  * [Example request](https://accountinformation.roblox.com/docs#!/PromotionChannel/get_v1_promotion_channels)
 * https://accountinformation.roblox.com/v1/users/306209/promotion-channels
+  * [Example request](https://accountinformation.roblox.com/docs#!/PromotionChannel/get_v1_users_userId_promotion_channels)
 </details>
 
 <details><summary>Get the authenticated user's creations by assetType</summary>
