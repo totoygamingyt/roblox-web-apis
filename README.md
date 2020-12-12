@@ -40,12 +40,10 @@ forked from [matthewdean/roblox-web-apis](https://github.com/matthewdean/roblox-
 | [avatar.roblox.com](https://avatar.roblox.com/docs) \[ [v1](https://avatar.roblox.com/docs#!/v1) \] | Endpoints relating to the customization of player avatars. |
 | [badges.roblox.com](https://badges.roblox.com/docs) \[ [v2](https://badges.roblox.com/docs#!/v2) \| [v1](https://badges.roblox.com/docs#!/v1) \] | Endpoints for badges and badge awards management. |
 | [billing.roblox.com](https://billing.roblox.com/docs) \[ [v1](https://billing.roblox.com/docs#!/v1) \] | Real money transactions and interaction. |
-| [captcha.roblox.com](https://captcha.roblox.com/docs) \[ [v1](https://captcha.roblox.com/docs#!/v1) \] | Captcha Api Site |
 | [catalog.roblox.com](https://catalog.roblox.com/docs) \[ [v2](https://catalog.roblox.com/docs#!/v2) \| [v1](https://catalog.roblox.com/docs#!/v1) \] | Catalog items browsing and searching. Content and user based catalog items recommendations. |
 | [cdnproviders.roblox.com](https://cdnproviders.roblox.com/docs) \[ [v1](https://cdnproviders.roblox.com/docs#!/v1) \] | Purpose of Api here. |
 | [chat.roblox.com](https://chat.roblox.com/docs) \[ [v2](https://chat.roblox.com/docs#!/v2) \| [v1.0](https://chat.roblox.com/docs#!/v1.0) \] | All chat and party related endpoints. |
 | [clientsettings.roblox.com](https://clientsettings.roblox.com/docs) \[ [v2](https://clientsettings.roblox.com/docs#!/v2) \| [v1](https://clientsettings.roblox.com/docs#!/v1) \] | Used by various Roblox clients to retrieve configuration information. |
-| [clientsettingscdn.roblox.com](https://clientsettingscdn.roblox.com/docs) \[ [v2](https://clientsettingscdn.roblox.com/docs#!/v2) \| [v1](https://clientsettingscdn.roblox.com/docs#!/v1) \] | Used by various Roblox clients to retrieve configuration information. |
 | [contacts.roblox.com](https://contacts.roblox.com/docs) \[ [v1](https://contacts.roblox.com/docs#!/v1) \] | Contacts and userTag management. |
 | [contentstore.roblox.com](https://contentstore.roblox.com/docs) \[ [v1](https://contentstore.roblox.com/docs#!/v1) \] | ApiSite to front the TemporaryStore for files before uploading to S3 |
 | [develop.roblox.com](https://develop.roblox.com/docs) \[ [v2](https://develop.roblox.com/docs#!/v2) \| [v1](https://develop.roblox.com/docs#!/v1) \] | Game development configuration endpoints. |
@@ -59,6 +57,7 @@ forked from [matthewdean/roblox-web-apis](https://github.com/matthewdean/roblox-
 | [gamepersistence.roblox.com](https://gamepersistence.roblox.com/docs) \[ [v2](https://gamepersistence.roblox.com/docs#!/v2) \| [v1](https://gamepersistence.roblox.com/docs#!/v1) \| [v0](https://gamepersistence.roblox.com/docs#!/v0) \] | Endpoints for the in-game datastore system for storing data for games. |
 | [games.roblox.com](https://games.roblox.com/docs) \[ [v2](https://games.roblox.com/docs#!/v2) \| [v1](https://games.roblox.com/docs#!/v1) \] | All endpoints for game discovery, and details. |
 | [groups.roblox.com](https://groups.roblox.com/docs) \[ [v2](https://groups.roblox.com/docs#!/v2) \| [v1](https://groups.roblox.com/docs#!/v1) \| [v0](https://groups.roblox.com/docs#!/v0) \] | Groups management. |
+| [groupsmoderation.roblox.com](https://groupsmoderation.roblox.com/docs) \[ [v1](https://groupsmoderation.roblox.com/docs#!/v1) \] | Group Moderation |
 | [inventory.roblox.com](https://inventory.roblox.com/docs) \[ [v2](https://inventory.roblox.com/docs#!/v2) \| [v1](https://inventory.roblox.com/docs#!/v1) \] | All endpoints for viewing (but not granting) ownership of items. |
 | [itemconfiguration.roblox.com](https://itemconfiguration.roblox.com/docs) \[ [v1](https://itemconfiguration.roblox.com/docs#!/v1) \] | Configure Items (bundles and avatar assets). |
 | [locale.roblox.com](https://locale.roblox.com/docs) \[ [v1](https://locale.roblox.com/docs#!/v1) \] | User locale management. |
