@@ -44,6 +44,7 @@ forked from [matthewdean/roblox-web-apis](https://github.com/matthewdean/roblox-
 | [cdnproviders.roblox.com](https://cdnproviders.roblox.com/docs) \[ [v1](https://cdnproviders.roblox.com/docs#!/v1) \] | Purpose of Api here. |
 | [chat.roblox.com](https://chat.roblox.com/docs) \[ [v2](https://chat.roblox.com/docs#!/v2) \| [v1.0](https://chat.roblox.com/docs#!/v1.0) \] | All chat and party related endpoints. |
 | [clientsettings.roblox.com](https://clientsettings.roblox.com/docs) \[ [v2](https://clientsettings.roblox.com/docs#!/v2) \| [v1](https://clientsettings.roblox.com/docs#!/v1) \] | Used by various Roblox clients to retrieve configuration information. |
+| [clientsettingscdn.roblox.com](https://clientsettingscdn.roblox.com/docs) \[ [v2](https://clientsettingscdn.roblox.com/docs#!/v2) \| [v1](https://clientsettingscdn.roblox.com/docs#!/v1) \] | Used by various Roblox clients to retrieve configuration information. |
 | [contacts.roblox.com](https://contacts.roblox.com/docs) \[ [v1](https://contacts.roblox.com/docs#!/v1) \] | Contacts and userTag management. |
 | [contentstore.roblox.com](https://contentstore.roblox.com/docs) \[ [v1](https://contentstore.roblox.com/docs#!/v1) \] | ApiSite to front the TemporaryStore for files before uploading to S3 |
 | [develop.roblox.com](https://develop.roblox.com/docs) \[ [v2](https://develop.roblox.com/docs#!/v2) \| [v1](https://develop.roblox.com/docs#!/v1) \] | Game development configuration endpoints. |
