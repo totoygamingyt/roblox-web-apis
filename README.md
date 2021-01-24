@@ -711,6 +711,7 @@ Make this relevant
 
 * https://catalog.roblox.com/v1/search/items/details?Category=3&MaxPrice=1000
   * [Example request](https://developer.roblox.com/en-us/articles/Catalog-API)
+* https://catalog.roblox.com/v2/search/items/details?Category=3&MaxPrice=1000
 </details>
 
 #### Asset APIs
