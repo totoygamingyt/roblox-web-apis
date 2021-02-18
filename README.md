@@ -47,6 +47,7 @@ forked from [matthewdean/roblox-web-apis](https://github.com/matthewdean/roblox-
 | [clientsettingscdn.roblox.com](https://clientsettingscdn.roblox.com/docs) \[ [v2](https://clientsettingscdn.roblox.com/docs#!/v2) \| [v1](https://clientsettingscdn.roblox.com/docs#!/v1) \] | Used by various Roblox clients to retrieve configuration information. |
 | [contacts.roblox.com](https://contacts.roblox.com/docs) \[ [v1](https://contacts.roblox.com/docs#!/v1) \] | Contacts and userTag management. |
 | [contentstore.roblox.com](https://contentstore.roblox.com/docs) \[ [v1](https://contentstore.roblox.com/docs#!/v1) \] | ApiSite to front the TemporaryStore for files before uploading to S3 |
+| [discussions.roblox.com](https://discussions.roblox.com/docs) \[TEMPORARILY OFFLINE\] \[ [v1](https:/discussions.roblox.com/docs#!/v1) \] | APIs related to discussions |
 | [develop.roblox.com](https://develop.roblox.com/docs) \[ [v2](https://develop.roblox.com/docs#!/v2) \| [v1](https://develop.roblox.com/docs#!/v1) \] | Game development configuration endpoints. |
 | [economy.roblox.com](https://economy.roblox.com/docs) \[ [v2](https://economy.roblox.com/docs#!/v2) \| [v1](https://economy.roblox.com/docs#!/v1) \] | Endpoints related to transactions and currency. |
 | [economycreatorstats.roblox.com](https://economycreatorstats.roblox.com/docs) \[ [v1](https://economycreatorstats.roblox.com/docs#!/v1) \] | Roblox.EconomyCreatorStats.Api endpoints. |
