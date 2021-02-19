@@ -1,5 +1,5 @@
 forked from [matthewdean/roblox-web-apis](https://github.com/matthewdean/roblox-web-apis)<br />
-
+* Please note that this is not actively maintainted and does not contain non-GET request endpoints as of February 2021.
 ## Table of Contents
 * [Subdomains](#subdomains)
 * [oAuth2 APIs](#oauth2-apis)
