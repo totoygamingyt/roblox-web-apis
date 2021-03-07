@@ -196,6 +196,7 @@ Make this relevant
 <details><summary>Get developer products of a universe</summary>
  
 * https://api.roblox.com/developerproducts/list?universeId=13058&page=1
+* https://develop.roblox.com/v1/universes/13058/developerproducts?pageNumber=1&pageSize=50
 </details>
 
 
@@ -264,8 +265,6 @@ Make this relevant
 ### User APIs
 <details><summary>Get the authenticated user</summary>
 
-* www
-  * https://www.roblox.com/Game/GetCurrentUser.ashx
 * users
   * https://users.roblox.com/v1/users/authenticated
     * [Example request](https://users.roblox.com/docs#!/Users/get_v1_users_authenticated)
@@ -361,7 +360,7 @@ Make this relevant
     * [Example request](http://notifications.roblox.com/docs#!/Notifications/get_v2_notifications_get_settings)
 </details>
 
-<details><summary>Get information about a user's page</summary>
+<details><summary>Get information about a user's page header</summary>
 
 * https://www.roblox.com/users/profile/profileheader-json?userId=306209
 </details>
@@ -383,6 +382,8 @@ Make this relevant
  
 * http://api.roblox.com/ownership/hasasset?userId=306209&assetId=1818
   * [Example request](https://api.roblox.com/docs)
+* https://inventory.roblox.com/v1/users/1/items/Asset/1818
+  * [Example request](https://inventory.roblox.com/docs#!/Inventory/get_v1_users_userId_items_itemType_itemTargetId)
 </details>
 
 <details><summary>Get if a user can manage an asset</summary>
@@ -465,9 +466,6 @@ Make this relevant
 
 <details><summary>Get the number of friends a user has</summary>
  
-* api
-  * https://api.roblox.com/user/get-friendship-count?userId=306209
-    * [Example request](https://api.roblox.com/docs)
 * friends
   * https://friends.roblox.com/v1/my/friends/count
     * [Example request](https://friends.roblox.com/docs#!/Friends/get_v1_my_friends_count)
@@ -488,18 +486,13 @@ Make this relevant
 </details>
 
 <details><summary>Get a user's groups</summary>
-
-* api
-  * https://api.roblox.com/users/306209/groups
-    * Most likely a proxy to the **groups/v0** version
-    * [Example request](https://api.roblox.com/docs)
 * groups
   * https://groups.roblox.com/v0/users/1/groups
 </details>
 
 <details><summary>Get groups that the authenticated user can manage</summary>
 
-* https://develop.roblox.com//v1/user/groups/canmanage
+* https://develop.roblox.com/v1/user/groups/canmanage
   * [Example request](https://develop.roblox.com//docs/#!/User/get_v1_user_groups_canmanage)
 </details>
 
@@ -567,16 +560,12 @@ Make this relevant
 ### Group APIs
 <details><summary>Get information about a group</summary>
  
-* api
-  * https://api.roblox.com/groups/1
-    * Most likely a proxy to the **groups/v0** version
-    * [Example request](https://api.roblox.com/docs)
 * groups
   * https://groups.roblox.com/v0/groups/1
-  * https://groups.roblox.com/v2/groups?groupIds=1
-    * [Example request](https://groups.roblox.com/docs#!/Groups/get_v2_groups)
   * https://groups.roblox.com/v1/groups/1
     * [Example request](https://groups.roblox.com/docs#!/Groups/get_v1_groups_groupId)
+  * https://groups.roblox.com/v2/groups?groupIds=1
+    * [Example request](https://groups.roblox.com/docs#!/Groups/get_v2_groups)
 </details>
 
 <details><summary>Get a group's games</summary>
@@ -632,26 +621,16 @@ Make this relevant
 
 <details><summary>Get a group's allies</summary>
  
-* api
-  * https://api.roblox.com/groups/1/allies
-    * Most likely a proxy to the **groups/v0** version
-    * [Example request](https://api.roblox.com/docs)
-* groups
-  * https://groups.roblox.com/v0/groups/1/relationships?relationshipType=ally
-  * https://groups.roblox.com/v1/groups/1/relationships/allies?model.startRowIndex=0&model.maxRows=50
-    * [Example request](https://groups.roblox.com/docs#!/Relationships/get_v1_groups_groupId_relationships_groupRelationshipType)
+* https://groups.roblox.com/v0/groups/1/relationships?relationshipType=ally
+* https://groups.roblox.com/v1/groups/1/relationships/allies?model.startRowIndex=0&model.maxRows=50
+  * [Example request](https://groups.roblox.com/docs#!/Relationships/get_v1_groups_groupId_relationships_groupRelationshipType)
 </details>
 
 <details><summary>Get a group's enemies</summary>
  
-* api
-  * https://api.roblox.com/groups/1/enemies
-    * Most likely a proxy to the **groups/v0** version
-    * [Example request](https://api.roblox.com/docs)
-* groups
-  * https://groups.roblox.com/v0/groups/1/relationships?relationshipType=enemy
-  * https://groups.roblox.com/v1/groups/1/relationships/enemies?model.startRowIndex=0&model.maxRows=50
-    * [Example request](https://groups.roblox.com/docs#!/Relationships/get_v1_groups_groupId_relationships_groupRelationshipType)
+* https://groups.roblox.com/v0/groups/1/relationships?relationshipType=enemy
+* https://groups.roblox.com/v1/groups/1/relationships/enemies?model.startRowIndex=0&model.maxRows=50
+  * [Example request](https://groups.roblox.com/docs#!/Relationships/get_v1_groups_groupId_relationships_groupRelationshipType)
 </details>
 
 <details><summary>Get a group's funds</summary>
@@ -755,6 +734,7 @@ Make this relevant
 * develop
   * https://develop.roblox.com/v1/assets/1818/saved-versions
   * https://develop.roblox.com/v1/assets/1818/published-versions
+  * https://develop.roblox.com/v2/assets/1818/versions
 </details>
 
 <details><summary>Get the current assetVersionId of an asset</summary>
@@ -818,13 +798,11 @@ Make this relevant
 </details>
 
 ### Image APIs
-<!--
 <details><summary>Get the resized version of a thumbnail</summary>
 
-pls add i forgot how it works
-https://thumbnailsresizer.roblox.com/docs#!/Resize/get_v1_resize_hash_width_height_type_format_filterType
+* https://thumbnailsresizer.roblox.com/v1/resize/02b3b4a7bcacd6b3abde05fa558243a3/200/200/AvatarHeadshot/Png/isCircular
+  * [Example request](https://thumbnailsresizer.roblox.com/docs#!/Resize/get_v1_resize_hash_width_height_type_format_filterType)
 </details>
--->
 <details><summary>Get the media for a universe</summary>
 
 * www
