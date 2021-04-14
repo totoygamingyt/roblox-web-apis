@@ -80,6 +80,7 @@ forked from [matthewdean/roblox-web-apis](https://github.com/matthewdean/roblox-
 | [translationroles.roblox.com](https://translationroles.roblox.com/docs) \[ [v1](https://translationroles.roblox.com/docs#!/v1) \] | Manages translation roles of developers in game localization. |
 | [translations.roblox.com](https://translations.roblox.com/docs) \[ [v1](https://translations.roblox.com/docs#!/v1) \] | Endpoints for requesting translations. |
 | [twostepverification.roblox.com](https://twostepverification.roblox.com/docs) \[ [v1](https://twostepverification.roblox.com/docs#!/v1) \] | Platform interface for the two step verification system. |
+| [usermoderation.roblox.com](https://usermoderation.roblox.com/docs) \[ [v1](https://usermoderation.roblox.com/docs#!/v1) \] | Endpoints for performing actions/operations related to User Moderation |
 | [users.roblox.com](https://users.roblox.com/docs) \[ [v1](https://users.roblox.com/docs#!/v1) \] | For direct Roblox user information. |
 | [voice.roblox.com](https://voice.roblox.com/docs) \[ [v2](https://voice.roblox.com/docs#!/v2) \| [v1](https://voice.roblox.com/docs#!/v1) \] | APIs for Voice calls. |
 
