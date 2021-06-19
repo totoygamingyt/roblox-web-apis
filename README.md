@@ -37,13 +37,13 @@ forked from [matthewdean/roblox-web-apis](https://github.com/matthewdean/roblox-
 | [api.roblox.com](https://api.roblox.com/docs) \[ [v1](https://api.roblox.com/docs#!/v1) \] | Roblox Legacy Api Endpoints |
 | [assetdelivery.roblox.com](https://assetdelivery.roblox.com/docs) \[ [v1](https://assetdelivery.roblox.com/docs#!/v1) \] | Serves asset content. |
 | [auth.roblox.com](https://auth.roblox.com/docs) \[ [v3](https://auth.roblox.com/docs#!/v3) \| [v2](https://auth.roblox.com/docs#!/v2) \| [v1](https://auth.roblox.com/docs#!/v1) \] | All endpoints that tamper with authentication sessions. |
-| [avatar.roblox.com](https://avatar.roblox.com/docs) \[ [v1](https://avatar.roblox.com/docs#!/v1) \] | Endpoints relating to the customization of player avatars. |
+| [avatar.roblox.com](https://avatar.roblox.com/docs) \[ \[ [v2](https://avatar.roblox.com/docs#!/v2) \| [v1](https://avatar.roblox.com/docs#!/v1) \] | Endpoints relating to the customization of player avatars. |
 | [badges.roblox.com](https://badges.roblox.com/docs) \[ [v2](https://badges.roblox.com/docs#!/v2) \| [v1](https://badges.roblox.com/docs#!/v1) \] | Endpoints for badges and badge awards management. |
 | [billing.roblox.com](https://billing.roblox.com/docs) \[ [v1](https://billing.roblox.com/docs#!/v1) \] | Real money transactions and interaction. |
 | [catalog.roblox.com](https://catalog.roblox.com/docs) \[ [v2](https://catalog.roblox.com/docs#!/v2) \| [v1](https://catalog.roblox.com/docs#!/v1) \] | Catalog items browsing and searching. Content and user based catalog items recommendations. |
 | [cdnproviders.roblox.com](https://cdnproviders.roblox.com/docs) \[ [v1](https://cdnproviders.roblox.com/docs#!/v1) \] | Purpose of Api here. |
 | [chat.roblox.com](https://chat.roblox.com/docs) \[ [v2](https://chat.roblox.com/docs#!/v2) \| [v1.0](https://chat.roblox.com/docs#!/v1.0) \] | All chat and party related endpoints. |
-| [chatmoderation.roblox.com](https://chatmoderation.roblox.com/docs) \[ [v1](https://chatmoderation.roblox.com/docs#!/v1) \] | *Unaccessible by normal users* |
+| [chatmoderation.roblox.com](https://chatmoderation.roblox.com/docs) \[ [v1](https://chatmoderation.roblox.com/docs#!/v1) \] | Chat moderation. |
 | [clientsettings.roblox.com](https://clientsettings.roblox.com/docs) \[ [v2](https://clientsettings.roblox.com/docs#!/v2) \| [v1](https://clientsettings.roblox.com/docs#!/v1) \] | Used by various Roblox clients to retrieve configuration information. |
 | [clientsettingscdn.roblox.com](https://clientsettingscdn.roblox.com/docs) \[ [v2](https://clientsettingscdn.roblox.com/docs#!/v2) \| [v1](https://clientsettingscdn.roblox.com/docs#!/v1) \] | Used by various Roblox clients to retrieve configuration information. |
 | [contacts.roblox.com](https://contacts.roblox.com/docs) \[ [v1](https://contacts.roblox.com/docs#!/v1) \] | Contacts and userTag management. |
