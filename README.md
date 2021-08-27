@@ -708,8 +708,8 @@ Make this relevant
   * https://catalog.roblox.com/v1/catalog/items/1818/details?itemType=Asset
  
 * economy
- * https://economy.roblox.com/v2/assets/1818/details
-   * **This API supersedes the Legacy API endpoint, with the addition of a `SaleAvailabilityLocations` field.**
+  * https://economy.roblox.com/v2/assets/1818/details
+    * **This API supersedes the Legacy API endpoint, with the addition of a `SaleAvailabilityLocations` field.**
 </details>
 
 <details><summary>Get the file of an asset</summary>
