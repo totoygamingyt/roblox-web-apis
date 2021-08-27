@@ -701,9 +701,15 @@ Make this relevant
 
 * api 
   * https://api.roblox.com/marketplace/productinfo?assetId=1818
+    * **This API has been superseded by the Economy endpoint with a similar response.**
     * [Example request](https://api.roblox.com/docs)
+
 * catalog
   * https://catalog.roblox.com/v1/catalog/items/1818/details?itemType=Asset
+ 
+* economy
+ * https://economy.roblox.com/v2/assets/1818/details
+   * **This API supersedes the Legacy API endpoint, with the addition of a `SaleAvailabilityLocations` field.**
 </details>
 
 <details><summary>Get the file of an asset</summary>
