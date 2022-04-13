@@ -48,7 +48,6 @@ forked from [matthewdean/roblox-web-apis](https://github.com/matthewdean/roblox-
 | [clientsettingscdn.roblox.com](https://clientsettingscdn.roblox.com/docs) \[ [v2](https://clientsettingscdn.roblox.com/docs#!/v2) \| [v1](https://clientsettingscdn.roblox.com/docs#!/v1) \] | Used by various Roblox clients to retrieve configuration information. |
 | [contacts.roblox.com](https://contacts.roblox.com/docs) \[ [v1](https://contacts.roblox.com/docs#!/v1) \] | Contacts and userTag management. |
 | [contentstore.roblox.com](https://contentstore.roblox.com/docs) \[ [v1](https://contentstore.roblox.com/docs#!/v1) \] | ApiSite to front the TemporaryStore for files before uploading to S3 |
-| [discussions.roblox.com](https://discussions.roblox.com/docs) \[TEMPORARILY OFFLINE\] \[ [v1](https:/discussions.roblox.com/docs#!/v1) \] | APIs related to discussions |
 | [develop.roblox.com](https://develop.roblox.com/docs) \[ [v2](https://develop.roblox.com/docs#!/v2) \| [v1](https://develop.roblox.com/docs#!/v1) \] | Game development configuration endpoints. |
 | [economy.roblox.com](https://economy.roblox.com/docs) \[ [v2](https://economy.roblox.com/docs#!/v2) \| [v1](https://economy.roblox.com/docs#!/v1) \] | Endpoints related to transactions and currency. |
 | [economycreatorstats.roblox.com](https://economycreatorstats.roblox.com/docs) \[ [v1](https://economycreatorstats.roblox.com/docs#!/v1) \] | Roblox.EconomyCreatorStats.Api endpoints. |
@@ -66,7 +65,6 @@ forked from [matthewdean/roblox-web-apis](https://github.com/matthewdean/roblox-
 | [locale.roblox.com](https://locale.roblox.com/docs) \[ [v1](https://locale.roblox.com/docs#!/v1) \] | User locale management. |
 | [localizationtables.roblox.com](https://localizationtables.roblox.com/docs) \[ [v1](https://localizationtables.roblox.com/docs#!/v1) \] | Handles managing of localization tables. |
 | [metrics.roblox.com](https://metrics.roblox.com/docs) \[ [v1](https://metrics.roblox.com/docs#!/v1) \] | Record metrics across Roblox. |
-| [midas.roblox.com](https://midas.roblox.com/docs) \[ [v1](https://midas.roblox.com/docs#!/v1) \] | Handle requests around making purchases using Midas |
 | [notifications.roblox.com](https://notifications.roblox.com/docs) \[ [v2](https://notifications.roblox.com/docs#!/v2) \] | All notification stream endpoints. |
 | [points.roblox.com](https://points.roblox.com/docs) \[ [v1](https://points.roblox.com/docs#!/v1) \] | The web Api for the in-game PointsService. |
 | [premiumfeatures.roblox.com](https://premiumfeatures.roblox.com/docs) \[ [v1](https://premiumfeatures.roblox.com/docs#!/v1) \] | This API is for premium features and anything pertaining to account add ons |
