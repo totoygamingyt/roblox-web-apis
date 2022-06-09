@@ -83,13 +83,12 @@ forked from [matthewdean/roblox-web-apis](https://github.com/matthewdean/roblox-
 | [users.roblox.com](https://users.roblox.com/docs) \[ [v1](https://users.roblox.com/docs#!/v1) \] | For direct Roblox user information. |
 | [voice.roblox.com](https://voice.roblox.com/docs) \[ [v2](https://voice.roblox.com/docs#!/v2) \| [v1](https://voice.roblox.com/docs#!/v1) \] | APIs for Voice calls. |
 
-<!-- TODO:
-Complete (duh..)
-Add proper responses and requests (wish GithHub's Markdown allowed showing the content of files in the repo)
-Make this relevant
--->
-## oAuth2 APIs
-*Earlier in 2020, Roblox implemented oAuth2 into the Creator Dashboard, and now has been used on **3 applications**. It's unsure if Roblox developers will be able to take advantage of it in the future.*
+## V1 oAuth2 APIs
+> **Warning**
+> This is a warning
+> The following is for V1 of the oAuth BEDEV2 service. V2 uses a different database, clientId format, and different endpoints. 
+> V1 is to-be phased out for the V2 service, which is also developer-facing, and V2 is yet to begin Alpha state as of 8th June 2022. 
+*Earlier in 2020, Roblox implemented oAuth2 into the Creator Dashboard, and now has been used on **5 applications**.*
 * oAuth2 Configuration
   * https://apis.roblox.com/application-authorization/.well-known/openid-configuration
 * Authorization
