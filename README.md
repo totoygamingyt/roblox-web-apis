@@ -29,13 +29,13 @@ forked from [matthewdean/roblox-web-apis](https://github.com/matthewdean/roblox-
 *click a link to be directed to the public documentation, for a complete documentation of all APIs in one webpage, visit [here](https://api.roblox.com/docs?useConsolidatedPage=true)*
 | Site | Description |
 | -: | :- |
-| [abtesting.roblox.com](https://abtesting.roblox.com/docs) \[ [v1](https://abtesting.roblox.com/docs#!/v1) \] | Endpoints for the A/B Testing framework |
+| [abtesting.roblox.com](https://abtesting.roblox.com/docs) \[ [v1](https://abtesting.roblox.com/docs#!/v1) \] | Endpoints for the A/B Testing framework **DEPRECATED**: Do not use |
 | [accountinformation.roblox.com](https://accountinformation.roblox.com/docs) \[ [v1](https://accountinformation.roblox.com/docs#!/v1) \] | All endpoints for accessing/modifying account information |
 | [accountsettings.roblox.com](https://accountsettings.roblox.com/docs) \[ [v1](https://accountsettings.roblox.com/docs#!/v1) \] | All endpoints for account/user settings. |
 | [adconfiguration.roblox.com](https://adconfiguration.roblox.com/docs) \[ [v2](https://adconfiguration.roblox.com/docs#!/v2) \| [v1](https://adconfiguration.roblox.com/docs#!/v1) \] | Roblox Ad Configuration related endpoints. |
 | [ads.roblox.com](https://ads.roblox.com/docs) \[ [v1](https://ads.roblox.com/docs#!/v1) \] | Ads configuration endpoints. |
-| [api.roblox.com](https://api.roblox.com/docs) \[ [v1](https://api.roblox.com/docs#!/v1) \] | Roblox Legacy Api Endpoints |
-| [assetdelivery.roblox.com](https://assetdelivery.roblox.com/docs) \[ [v1](https://assetdelivery.roblox.com/docs#!/v1) \] | Serves asset content. |
+| [api.roblox.com](https://api.roblox.com/docs) \[ [v1](https://api.roblox.com/docs#!/v1) \] | Roblox Legacy Api Endpoints **DEPRECATED**: Use alternatives instead |
+| [assetdelivery.roblox.com](https://assetdelivery.roblox.com/docs) \[ [v2](https://assetdelivery.roblox.com/docs#!/v2) \| [v1](https://assetdelivery.roblox.com/docs#!/v1) \] | Serves asset content. |
 | [auth.roblox.com](https://auth.roblox.com/docs) \[ [v3](https://auth.roblox.com/docs#!/v3) \| [v2](https://auth.roblox.com/docs#!/v2) \| [v1](https://auth.roblox.com/docs#!/v1) \] | All endpoints that tamper with authentication sessions. |
 | [avatar.roblox.com](https://avatar.roblox.com/docs) \[ \[ [v2](https://avatar.roblox.com/docs#!/v2) \| [v1](https://avatar.roblox.com/docs#!/v1) \] | Endpoints relating to the customization of player avatars. |
 | [badges.roblox.com](https://badges.roblox.com/docs) \[ [v2](https://badges.roblox.com/docs#!/v2) \| [v1](https://badges.roblox.com/docs#!/v1) \] | Endpoints for badges and badge awards management. |
@@ -81,7 +81,7 @@ forked from [matthewdean/roblox-web-apis](https://github.com/matthewdean/roblox-
 | [twostepverification.roblox.com](https://twostepverification.roblox.com/docs) \[ [v1](https://twostepverification.roblox.com/docs#!/v1) \] | Platform interface for the two step verification system. |
 | [usermoderation.roblox.com](https://usermoderation.roblox.com/docs) \[ [v1](https://usermoderation.roblox.com/docs#!/v1) \] | Endpoints for performing actions/operations related to User Moderation |
 | [users.roblox.com](https://users.roblox.com/docs) \[ [v1](https://users.roblox.com/docs#!/v1) \] | For direct Roblox user information. |
-| [voice.roblox.com](https://voice.roblox.com/docs) \[ [v2](https://voice.roblox.com/docs#!/v2) \| [v1](https://voice.roblox.com/docs#!/v1) \] | APIs for Voice calls. |
+| [voice.roblox.com](https://voice.roblox.com/docs) \[ [v3](https://voice.roblox.com/docs#!/v3) \| [v2](https://voice.roblox.com/docs#!/v2) \| [v1](https://voice.roblox.com/docs#!/v1) \] | APIs for Voice calls. |
 
 ## V1 oAuth2 APIs
 
@@ -133,7 +133,7 @@ forked from [matthewdean/roblox-web-apis](https://github.com/matthewdean/roblox-
 * https://www.roblox.com/private-server/instance-list-json?universeId=130580&page=1
 </details>
 
-<details><summary>Get start informatioin about a universe</summary>
+<details><summary>Get start information about a universe</summary>
  
 * https://api.roblox.com/v1.1/game-start-info?universeId=13058
 </details>
